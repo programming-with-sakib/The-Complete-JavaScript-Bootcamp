@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Monster Finder | Programming With Sakib</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <h1>Monster Finder</h1>
+        </div>
+        <form class="search" id="search-monster-form">
+          <input
+            type="text"
+            class="search__field"
+            placeholder="Search your monster friends..."
+            autocomplete="off"
+            id="search-monster"
+          />
+          <button class="btn search__btn">
+            <svg class="search__icon">
+              <use href="/icons.svg#icon-magnifying-glass"></use>
+            </svg>
+            <span>Search</span>
+          </button>
+        </form>
+        <div></div>
+      </header>
+      <div class="monsters">
+        <div class="monster">
+          <img
+            src="https://robohash.org/${monster.id}?set=set2"
+            alt="MD. Sakib Khan"
+          />
+          <p class="name">MD. Sakib Khan</p>
+          <p class="email">programmingwithsakib@gmail.com</p>
+        </div>
+
+        <div class="p-5 not-found" style="display: none;">
+          <span>404</span>
+          <h1>🧟‍♂️ No Monster Found 🧟‍♂️</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>

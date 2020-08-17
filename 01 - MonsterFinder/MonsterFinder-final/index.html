@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Monster Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <h1>Monster Finder</h1>
+        </div>
+        <form class="search" id="search-monster-form">
+          <input
+            type="text"
+            class="search__field"
+            placeholder="Search your monster friends..."
+            autocomplete="off"
+            id="search-monster"
+          />
+          <button class="btn search__btn">
+            <svg class="search__icon">
+              <use href="/icons.svg#icon-magnifying-glass"></use>
+            </svg>
+            <span>Search</span>
+          </button>
+        </form>
+        <div></div>
+      </header>
+      <div class="monsters"></div>
+    </div>
+  </body>
+
+  <script type="module" src="index.js"></script>
+</html>

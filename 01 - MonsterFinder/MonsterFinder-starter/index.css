@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Patrick+Hand&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #655a56;
+  background: #393e46;
+  /* fallback for old browsers */
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 90%;
+  margin: 1vw auto 2vw auto;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 68.75em) {
+  .container {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+.btn,
+.btn-small,
+.btn-small:link,
+.btn-small:visited {
+  font-family: 'Merienda', cursive;
+  font-family: 'Patrick Hand', cursive;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#455d7a), to(#393e46));
+  background-image: -webkit-linear-gradient(left top, #455d7a, #393e46);
+  background-image: -o-linear-gradient(left top, #455d7a, #393e46);
+  background-image: linear-gradient(to right bottom, #455d7a, #393e46);
+  border-radius: 10rem;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn:focus,
+.btn-small:focus {
+  outline: none;
+}
+
+.btn > *:first-child,
+.btn-small > *:first-child {
+  margin-right: 1rem;
+}
+
+.btn {
+  padding: 1.3rem 3rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.7px;
+}
+
+.btn svg {
+  height: 2.25rem;
+  width: 2.25rem;
+  fill: currentColor;
+}
+
+.header {
+  background-color: #f9f5f3;
+  padding: 20px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.header__logo {
+  margin-left: 4rem;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.header__logo h1 {
+  font-family: 'Rancho', cursive;
+}
+
+.search {
+  background-color: #fff;
+  border-radius: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 3rem;
+  border: 1px solid #ecded8;
+}
+
+@media (max-width: 500px) {
+  .search {
+    max-width: 100%;
+  }
+}
+
+.search__field {
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.7rem;
+  width: 30rem;
+}
+
+.search__field:focus {
+  outline: none;
+}
+
+.search__field::-webkit-input-placeholder {
+  color: #dad0cc;
+}
+
+.search__field::-moz-placeholder {
+  color: #dad0cc;
+}
+
+.search__field:-ms-input-placeholder {
+  color: #dad0cc;
+}
+
+.search__field::-ms-input-placeholder {
+  color: #dad0cc;
+}
+
+.search__field::placeholder {
+  color: #dad0cc;
+}
+
+.monsters {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90%;
+  margin: 2vw auto 3vw auto;
+}
+
+@media only screen and (max-width: 68.75em) {
+  .monsters {
+    width: 99%;
+    margin: 1vw auto;
+  }
+}
+
+.monster {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  max-width: 320px;
+  text-align: center;
+  background: lightblue;
+  border-radius: 8px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  -o-transition: -o-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear, -o-transform 0.2s linear;
+}
+
+@media (max-width: 400px) {
+  .monster {
+    max-width: 100%;
+  }
+}
+
+.monster:hover {
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+       -o-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.monster:nth-child(3n) {
+  background: #1fffa5;
+  -webkit-box-shadow: inset -20px -20px 60px #1ad98c, inset 20px 20px 60px #24ffbe;
+          box-shadow: inset -20px -20px 60px #1ad98c, inset 20px 20px 60px #24ffbe;
+}
+
+.monster:nth-child(3n + 1) {
+  background: #add8e6;
+  -webkit-box-shadow: inset -20px -20px 60px #93b8c4, inset 20px 20px 60px #c7f8ff;
+          box-shadow: inset -20px -20px 60px #93b8c4, inset 20px 20px 60px #c7f8ff;
+}
+
+.monster:nth-child(3n + 2) {
+  background: #ffb6c1;
+  -webkit-box-shadow: inset -20px -20px 60px #d99ba4, inset 20px 20px 60px #ffd1de;
+          box-shadow: inset -20px -20px 60px #d99ba4, inset 20px 20px 60px #ffd1de;
+}
+
+@media (max-width: 400px) {
+  .monster img {
+    width: 100%;
+  }
+}
+
+.monster .name {
+  font-size: 3.5rem;
+}
+
+.monster .email {
+  font-size: 2rem;
+}
+
+.p-5 {
+  padding: 10rem 10rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .p-5 {
+    padding: 10rem 2rem;
+  }
+}
+
+.p-5 span {
+  font-size: 15rem;
+}
+
+.p-5 h1 {
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+  .p-5 h1 {
+    font-size: 3.5rem;
+  }
+}
