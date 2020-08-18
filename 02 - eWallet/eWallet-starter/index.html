@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>eWallet | Programming With Sakib</title>
+  </head>
+  <body>
+    <div class="container ewallet">
+      <header class="green">
+        <div class="ewalletLogo">
+          <img src="./icon.png" alt="ewallet" />
+          <h1>eWallet</h1>
+        </div>
+        <div class="balance">
+          <div class="balance__heading">
+            <p>Total balance</p>
+          </div>
+          <div class="balance__amount">
+            <p>0</p>
+          </div>
+        </div>
+
+        <div class="income-expense">
+          <div class="income">
+            <div class="income__amount">
+              <p>$0</p>
+            </div>
+            <div class="income__heading">
+              <p>Incomes</p>
+            </div>
+          </div>
+          <div class="expense">
+            <div class="expense__amount">
+              <p>$0</p>
+            </div>
+            <div class="expense__heading">
+              <p>Expenses</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="add">
+        <form id="ewallet-form">
+          <div class="add__container">
+            <select class="add__type">
+              <option value="+" selected>+</option>
+              <option value="-">-</option>
+            </select>
+            <input
+              type="text"
+              class="add__description"
+              placeholder="Add description"
+            />
+            <input type="number" class="add__value" placeholder="Value" />
+            <button class="add__btn">
+              <ion-icon name="checkmark-circle-outline"></ion-icon>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="collection">
+        <div class="item">
+          <div class="item-description-time">
+            <div class="item-description">
+              <p>Buy a physics book</p>
+            </div>
+            <div class="item-time">
+              <p>25 Feb, 06:45 PM</p>
+            </div>
+          </div>
+          <div class="item-amount expense-amount">
+            <p>-$78</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-description-time">
+            <div class="item-description">
+              <p>Salary</p>
+            </div>
+            <div class="item-time">
+              <p>24 Feb, 09:45 AM</p>
+            </div>
+          </div>
+          <div class="item-amount income-amount">
+            <p>+$1000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
