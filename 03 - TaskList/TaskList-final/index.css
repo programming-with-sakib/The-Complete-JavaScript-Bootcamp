@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background: rgba(241, 228, 228, 0.77);
+}
+
+.tasklist {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  background: #ffa4e4;
+  background: #ea907a;
+  -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #53354a;
+  background-color: #204051;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem 0.3rem;
+  margin-bottom: 2.5rem;
+}
+
+nav header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  font-size: 2.9rem;
+  padding: 1rem;
+  padding: 1.5rem;
+}
+
+nav header ion-icon {
+  font-size: 5.5rem;
+  padding: 0 1rem;
+}
+
+nav header p {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  padding-left: 1.5rem;
+}
+
+nav header svg {
+  height: 48px;
+  width: 48px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.newtask {
+  padding: 6.5rem 2rem 2rem 2rem;
+  margin: 2rem 1rem;
+  background: #ffffff;
+  border: 1px solid #f5f1f1;
+  border-radius: 5px;
+  margin-bottom: 3.5rem;
+}
+
+.newtask__input {
+  margin-right: 1rem;
+}
+
+.newtask__input input {
+  width: 100%;
+  border-radius: none;
+  border: none;
+  border-bottom: 1px solid #908888;
+  padding: 0.3rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.6rem;
+}
+
+.newtask__input input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.newtask__input input::-moz-placeholder {
+  color: #999;
+}
+
+.newtask__input input:-ms-input-placeholder {
+  color: #999;
+}
+
+.newtask__input input::-ms-input-placeholder {
+  color: #999;
+}
+
+.newtask__input input::placeholder {
+  color: #999;
+}
+
+.newtask__input input:hover, .newtask__input input:focus, .newtask__input input:active {
+  outline: none;
+}
+
+.newtask__btn {
+  text-align: right;
+  padding-top: 1.5rem;
+}
+
+.newtask__btn button {
+  font-family: 'Noto Serif', serif;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: white;
+  padding: 1rem 1.8rem;
+}
+
+.newtask__btn button:last-child {
+  margin-right: 0px;
+}
+
+.newtask__btn button.AddTaskBtn {
+  background-color: #1fab89;
+}
+
+.newtask__btn button.EditTaskBtn {
+  background-color: #7e6bc4;
+}
+
+.newtask__btn button.CancelTaskBtn {
+  background-color: #666;
+}
+
+.newtask__btn button:hover, .newtask__btn button:focus, .newtask__btn button:active {
+  border: none;
+  outline: none;
+}
+
+.task {
+  margin: 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 1.25rem 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.3rem;
+}
+
+.task__details input {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+       -o-transform: scale(1.3);
+          transform: scale(1.3);
+  cursor: pointer;
+}
+
+.task__details label {
+  font-size: 1.9rem;
+  padding-left: 1.2rem;
+  color: #383838;
+}
+
+.task__op {
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.task__op_edit {
+  padding-right: 1.1rem;
+  color: #45046a;
+}
+
+.task__op_delete {
+  color: #c70039;
+}
+
+.task__op_edit, .task__op_delete {
+  font-size: 2.3rem;
+  font-weight: bolder;
+  cursor: pointer;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+}
+
+.completed {
+  background: #d4d4d4;
+}
+
+.completed label {
+  text-decoration: line-through;
+}

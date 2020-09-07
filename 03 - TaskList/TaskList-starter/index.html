@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Task List | Programming With Sakib</title>
+  </head>
+  <body>
+    <div class="tasklist">
+      <nav>
+        <header>
+          <svg class="icon icon-survey">
+            <use xlink:href="/icons.svg#icon-survey"></use>
+          </svg>
+          <p>Task List</p>
+        </header>
+      </nav>
+      <div class="container">
+        <div class="newtask">
+          <div class="newtask__input">
+            <input
+              type="text"
+              id="newtaskID"
+              placeholder="Add new task here..."
+            />
+          </div>
+          <div class="newtask__btn">
+            <button class="AddTaskBtn">Add Task</button>
+            <button class="EditTaskBtn" style="display: none;">Edit Task</button>
+            <button class="CancelTaskBtn" style="display: none;">Cancel</button>
+          </div>
+        </div>
+
+        <div class="task-list">
+          <div class="task" data-createdat="12/12/2022, 6:59:55 PM">
+            <div class="task__details">
+              <input type="checkbox" class="task-check" />
+              <label class="task-title">Hello world</label>
+            </div>
+
+            <div class="task__op">
+              <ion-icon class="task__op_edit" name="create-outline"></ion-icon>
+              <ion-icon class="task__op_delete" name="trash-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
