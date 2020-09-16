@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background: rgba(245, 241, 241, 0.77);
+}
+
+button {
+  border: none;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, right bottom, from(#6cc05e), to(#28b485));
+  background: -webkit-linear-gradient(left top, #6cc05e, #28b485);
+  background: -o-linear-gradient(left top, #6cc05e, #28b485);
+  background: linear-gradient(to right bottom, #6cc05e, #28b485);
+  padding-bottom: 2rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.8rem;
+  font-family: 'Rancho', cursive;
+}
+
+nav header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding-top: 2rem;
+  font-size: 5rem;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 600px) {
+  nav header {
+    font-size: 4rem;
+  }
+}
+
+nav header p {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  letter-spacing: 1.7px;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.loader svg {
+  height: 5.5rem;
+  width: 5.5rem;
+  fill: #2b2e4a;
+  -webkit-transform-origin: 44% 50%;
+      -ms-transform-origin: 44% 50%;
+       -o-transform-origin: 44% 50%;
+          transform-origin: 44% 50%;
+  -webkit-animation: rotate 1.5s infinite linear;
+       -o-animation: rotate 1.5s infinite linear;
+          animation: rotate 1.5s infinite linear;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotate {
+  0% {
+    -o-transform: rotate(0);
+       transform: rotate(0);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+       transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+         -o-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.bicycleShop {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.3px;
+  max-width: 1230px;
+  margin: auto;
+  padding: 0.7rem 2rem 5rem 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.bicycleShop .bicycle {
+  border-radius: 5px;
+  width: 350px;
+  margin: 1rem;
+  background: white;
+  padding: 1.5rem 2rem 2rem 2rem;
+  position: relative;
+  background: -webkit-linear-gradient(305deg, #e6e6e6, #ffffff);
+  background: -o-linear-gradient(305deg, #e6e6e6, #ffffff);
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  -webkit-box-shadow: 2px 4px 10px #41414198;
+          box-shadow: 2px 4px 10px #41414198;
+}
+
+.bicycleShop .bicycle__image {
+  width: 100%;
+  text-align: center;
+}
+
+.bicycleShop .bicycle__image img {
+  width: 90%;
+  height: 90%;
+}
+
+.bicycleShop .bicycle__name {
+  text-align: center;
+}
+
+.bicycleShop .bicycle__name a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.bicycleShop .bicycle__name a:hover {
+  text-decoration: underline;
+}
+
+.bicycleShop .bicycle__rating {
+  text-align: center;
+}
+
+.bicycleShop .bicycle__rating span {
+  font-size: 1.5rem;
+  padding: 10px 2px;
+}
+
+.bicycleShop .bicycle__rating span.checked {
+  color: orange;
+}
+
+.bicycleShop .bicycle__price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bicycleShop .bicycle__price p:first-child {
+  font-size: 1.7rem;
+}
+
+.bicycleShop .bicycle__price p:last-child {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.bicycleShop .bicycle .discount__rate {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px 0 5px 0;
+  background: #ff2e63;
+  padding: 1.25rem 2rem;
+  color: white;
+}
+
+.bicycleShop .bicycle .discount__rate p {
+  font-size: 1.7rem;
+}
+
+.singleBicycle {
+  max-width: 870px;
+  margin: auto;
+  padding: 0.7rem 2rem 3.5rem 2rem;
+  background: -webkit-linear-gradient(305deg, #e6e6e6, #ffffff);
+  background: -o-linear-gradient(305deg, #e6e6e6, #ffffff);
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  -webkit-box-shadow: 2px 4px 10px #41414198;
+          box-shadow: 2px 4px 10px #41414198;
+  border-radius: 4px;
+  position: relative;
+}
+
+.singleBicycle .goBack {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.singleBicycle .goBack svg {
+  height: 5rem;
+  width: 5rem;
+}
+
+.singleBicycle .singleBicycle_img {
+  max-width: 380px;
+  margin: auto;
+}
+
+.singleBicycle .singleBicycle_img img {
+  max-width: 100%;
+}
+
+.singleBicycle .singleBicycle_info {
+  padding: 0rem 2rem 1rem 2rem;
+}
+
+.singleBicycle .singleBicycle_info .singleBicycle_name {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.singleBicycle .singleBicycle_info .singleBicycle_price {
+  font-size: 2rem;
+  color: #414141;
+  padding-top: 3px;
+  padding-bottom: 1.3rem;
+  border-bottom: 1px solid #c5c5c5;
+  margin-bottom: 1.25rem;
+}
+
+.singleBicycle .singleBicycle_info .singleBicycle_desc {
+  font-size: 15px;
+  line-height: 175%;
+  text-align: justify;
+}
