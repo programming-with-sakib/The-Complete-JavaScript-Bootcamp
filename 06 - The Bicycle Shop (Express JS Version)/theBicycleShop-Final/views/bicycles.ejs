@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>The Bicycle Shop | Programming With Sakib</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <header>
+          <h1>The Bicycle Shop</h1>
+        </header>
+      </nav>
+
+      <div class="bicycleShop">
+        <% for(let bicycle of bicycles) { %>
+        <div class="bicycle">
+          <div class="bicycle__image">
+            <img src="/images/<%=bicycle.image%>" alt="<%=bicycle.name%>" />
+          </div>
+
+          <div class="bicycle__name">
+            <a href="/bicycle?id=<%=bicycle.id%>"><%=bicycle.name%></a>
+          </div>
+
+          <div class="bicycle__rating">
+            <% for(let index = 0; index < bicycle.star; index++) { %>
+            <span class="fa fa-star checked"></span>
+            <% } %> 
+            <% for(let index = 0; index < 5 - bicycle.star; index++) { %>
+            <span class="fa fa-star"></span>
+            <% } %>
+          </div>
+
+          <div class="bicycle__price">
+            <p class="current_price">
+              <% if(bicycle.hasDiscount) { %>
+                $<%= bicycle.originalPrice * (100 - bicycle.discount) / 100 %>.00
+              <% } else { %>
+                $<%= bicycle.originalPrice %>.00
+              <% } %>
+            </p>
+            <p class="old_price">
+              <% if(bicycle.hasDiscount) { %>
+                $<%= bicycle.originalPrice %>
+              <% } %>
+            </p>
+          </div>
+
+          <% if(bicycle.hasDiscount) { %>
+          <div class="discount__rate"><p>40% Off</p></div>
+          <% } %>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>
