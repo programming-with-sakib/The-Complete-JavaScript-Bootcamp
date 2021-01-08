@@ -130,7 +130,7 @@ const checkAFileExistsOrNot = async (fileName) => {
     await fs.access(`./${fileName}`);
     console.log('File/Folder exists');
   } catch (e) {
-    console.log('File/Folder don't exist');
+    console.log(`File/Folder don't exist`);
   }
 };
 
