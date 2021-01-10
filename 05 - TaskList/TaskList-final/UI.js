@@ -1,17 +1,16 @@
-import LS from './LocalStorage.js';
-
-function UI() {}
+import LS from './LS.js';
 
 const ls = new LS();
 
-UI.prototype.showAllTasks = function () {
-  const tasks = ls.getTasks();
-  let newHtml = '';
-  tasks.forEach((task) => {
-    newHtml += `
-    <div class="task ${task.isCompleted ? 'completed' : ''}" data-id="${
-      task.id
-    }">
+class UI {
+  showAllTasks() {
+    let tasks = ls.fetchTask();
+    let newHtml = '';
+    tasks.forEach((task) => {
+      newHtml += `
+    <div class="task ${task.isCompleted ? 'completed' : ''}" data-createdat="${
+        task.id
+      }">
       <div class="task__details">
         <input type="checkbox" class="task-check" ${
           task.isCompleted ? 'checked' : ''
@@ -23,103 +22,95 @@ UI.prototype.showAllTasks = function () {
         <ion-icon class="task__op_edit" name="create-outline"></ion-icon>
         <ion-icon class="task__op_delete" name="trash-outline"></ion-icon>
       </div>
-    </div> `;
-  });
-  document.querySelector('.task-list').innerHTML = newHtml;
-};
-
-UI.prototype.AddToUI = function (task) {
-  if (task.title.length > 0) {
-    ls.storeTasks(task);
-    const newtask = `
-    <div class="task" data-id="${task.id}">
-      <div class="task__details">
-        <input type="checkbox" class="task-check" />
-        <label class="task-title">${task.title}</label>
-      </div>
-
-      <div class="task__op">
-        <ion-icon class="task__op_edit" name="create-outline"></ion-icon>
-        <ion-icon class="task__op_delete" name="trash-outline"></ion-icon>
-      </div>
     </div>
+    `;
+    });
+
+    document.querySelector('.task-list').innerHTML = newHtml;
+  }
+
+  addToUI(task) {
+    ls.storeTask(task);
+    const newHtml = `
+  <div class="task" data-createdat="${task.id}">
+    <div class="task__details">
+      <input type="checkbox" class="task-check" />
+      <label class="task-title">${task.title}</label>
+    </div>
+
+    <div class="task__op">
+      <ion-icon class="task__op_edit" name="create-outline"></ion-icon>
+      <ion-icon class="task__op_delete" name="trash-outline"></ion-icon>
+    </div>
+  </div>
   `;
 
     document
       .querySelector('.task-list')
-      .insertAdjacentHTML('afterbegin', newtask);
+      .insertAdjacentHTML('afterbegin', newHtml);
   }
-};
 
-UI.prototype.clearField = function () {
-  document.querySelector('#newtaskID').value = '';
-};
+  resetForm() {
+    document.querySelector('#newtaskID').value = '';
+  }
 
-UI.prototype.updateTask = function (e) {
-  const task = e.target.parentElement.parentElement;
-  const id = task.dataset.id;
-  const data = ls.findTask(id);
+  deleteTask(e) {
+    const task = e.target.parentElement.parentElement;
+    const id = task.dataset.createdat;
+    ls.deleteTask(id);
+    task.remove();
+  }
 
-  document.querySelector('.UpdateTaskId').innerText = id;
-  document.querySelector('#newtaskID').value = data.title;
+  completeTask(e) {
+    const task = e.target.parentElement.parentElement;
+    const id = task.dataset.createdat;
+    ls.completeTask(id);
+    task.classList.toggle('completed');
+  }
 
-  document.querySelector('.AddTaskBtn').style.display = 'none';
-  document.querySelector('.EditTaskBtn').style.display = 'inline';
-  document.querySelector('.CancelTaskBtn').style.display = 'inline';
-};
+  editTask(e) {
+    const task = e.target.parentElement.parentElement;
+    const id = task.dataset.createdat;
+    const data = ls.findTask(id);
 
-UI.prototype.deleteTask = function (e) {
-  const task = e.target.parentElement.parentElement;
-  const id = task.dataset.id;
-  ls.deleteTask(id);
-  task.remove();
-};
+    document.querySelector('#newtaskID').value = data.title;
+    document.querySelector('#updateTaskId').value = data.id;
 
-UI.prototype.editTask = function () {
-  const taskId = document.querySelector('.UpdateTaskId').innerText;
-  const taskTitle = document.querySelector('#newtaskID').value;
+    document.querySelector('.AddTaskBtn').style.display = 'none';
+    document.querySelector('.EditTaskBtn').style.display = 'inline';
+    document.querySelector('.CancelTaskBtn').style.display = 'inline';
+  }
 
-  if (taskTitle.length > 0) {
-    ls.updateTask(taskTitle, taskId);
-
+  updateTask(e) {
+    const taskId = document.querySelector('#updateTaskId').value;
+    const taskTitle = document.querySelector('#newtaskID').value;
     const tasks = document.querySelectorAll('.task-title');
-    tasks.forEach((task) => {
-      if (
-        task.parentElement.parentElement.dataset.id === taskId
-      ) {
-        task.innerText = taskTitle;
-      }
-    });
 
-    console.log(taskTitle, taskId);
+    if (taskTitle.length > 0) {
+      ls.updateTask(taskId, taskTitle);
+      tasks.forEach((title) => {
+        if (title.parentElement.parentElement.dataset.createdat === taskId) {
+          title.innerText = taskTitle;
+        }
+      });
+    }
 
     document.querySelector('#newtaskID').value = '';
+    document.querySelector('#updateTaskId').value = '';
 
     document.querySelector('.AddTaskBtn').style.display = 'inline';
     document.querySelector('.EditTaskBtn').style.display = 'none';
     document.querySelector('.CancelTaskBtn').style.display = 'none';
-
-    document.querySelector('.UpdateTaskId').innerText = '';
   }
-};
 
-UI.prototype.cancelTask = function () {
-  document.querySelector('#newtaskID').value = '';
+  cancelTask(e) {
+    document.querySelector('#newtaskID').value = '';
+    document.querySelector('#updateTaskId').value = '';
 
-  document.querySelector('.AddTaskBtn').style.display = 'inline';
-  document.querySelector('.EditTaskBtn').style.display = 'none';
-  document.querySelector('.CancelTaskBtn').style.display = 'none';
-
-  document.querySelector('.UpdateTaskId').innerText = '';
-};
-
-UI.prototype.completeTask = function (e) {
-  const task = e.target.parentElement.parentElement;
-  const id = task.dataset.id;
-
-  task.classList.toggle('completed');
-
-  ls.completeTask(id);
-};
+    document.querySelector('.AddTaskBtn').style.display = 'inline';
+    document.querySelector('.EditTaskBtn').style.display = 'none';
+    document.querySelector('.CancelTaskBtn').style.display = 'none';
+  }
+}
 
 export default UI;
