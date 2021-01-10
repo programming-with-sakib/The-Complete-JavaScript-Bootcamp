@@ -1,59 +1,52 @@
-const form = document.getElementById('form');
-const password1El = document.getElementById('password1');
-const password2El = document.getElementById('password2');
-const messageContainer = document.querySelector('.message-container');
-const message = document.getElementById('message');
+const form = document.querySelector('#form');
+const message = document.querySelector('#message');
+const password1 = document.querySelector('#password1');
+const password2 = document.querySelector('#password2');
 
 let isValid = false;
-let passwordsMatch = false;
+let passwordMatch = false;
 
-const validateForm = () => {
+function validateForm() {
   isValid = form.checkValidity();
   if (!isValid) {
-    message.textContent = 'Please fill out all fields.';
+    message.textContent = 'Please fill out all fields';
     message.style.color = 'red';
-    messageContainer.style.borderColor = 'red';
-    return;
-  }
-
-  if (password1El.value === password2El.value) {
-    passwordsMatch = true;
-    password1El.style.borderColor = 'green';
-    password2El.style.borderColor = 'green';
   } else {
-    passwordsMatch = false;
-    message.textContent = 'Make sure passwords match.';
-    message.style.color = 'red';
-    messageContainer.style.borderColor = 'red';
-    password1El.style.borderColor = 'red';
-    password2El.style.borderColor = 'red';
-    return;
+    if (password1.value === password2.value) {
+      passwordMatch = true;
+
+      password1.style.borderColor = 'green';
+      password2.style.borderColor = 'green';
+    } else {
+      passwordMatch = false;
+      message.textContent = 'Make sure passwords match.';
+      message.style.color = 'red';
+
+      password1.style.borderColor = 'red';
+      password2.style.borderColor = 'red';
+      return;
+    }
+
+    if (isValid && passwordMatch) {
+      message.textContent = 'Successfully Registered';
+      message.style.color = 'green';
+    }
   }
+}
 
-  if (isValid && passwordsMatch) {
-    message.textContent = 'Successfully Registered!';
-    message.style.color = 'green';
-    messageContainer.style.borderColor = 'green';
-  }
-};
-
-const storeFormData = () => {
-  const user = {
-    name: form.name.value,
-    phone: form.phone.value,
-    email: form.email.value,
-    website: form.website.value,
-    password: form.password.value,
-  };
-  console.log(user);
-};
-
-const processFormData = (event) => {
-  event.preventDefault();
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
   validateForm();
-  if (isValid && passwordsMatch) {
-    storeFormData();
-  }
-};
 
-form.addEventListener('submit', processFormData);
+  if (isValid && passwordMatch) {
+    const user = {
+      name: form.name.value,
+      email: form.email.value,
+      phone: form.phone.value,
+      website: form.website.value,
+      password: form.password.value,
+    };
+
+    console.log(user);
+  }
+});

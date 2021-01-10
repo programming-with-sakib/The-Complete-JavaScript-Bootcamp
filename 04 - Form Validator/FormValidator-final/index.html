@@ -6,19 +6,18 @@
     <title>Form Validator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="container">
       <h1>Form Validator</h1>
       <h3 id="message"></h3>
-      <form id="form">
+      <form id="form" novalidate>
         <div class="form-group">
-          <label for="name">Full Name</label>
+          <label for="name">Full name</label>
           <input
-            type="text"
             id="name"
+            type="text"
             name="name"
-            placeholder="Full Name"
+            placeholder="Full name"
             required
             minlength="3"
             maxlength="100"
@@ -27,8 +26,8 @@
         <div class="form-group">
           <label for="email">Email Address</label>
           <input
-            type="email"
             id="email"
+            type="email"
             name="email"
             placeholder="email@example.com"
             required
@@ -37,49 +36,50 @@
         <div class="form-group">
           <label for="phone">Phone Number</label>
           <input
-            type="tel"
             id="phone"
+            type="tel"
             name="phone"
             placeholder="11111-111111"
+            pattern="^[0-9]{5}-[0-9]{6}$"
             required
-            pattern="[0-9]{5}-[0-9]{6}"
           />
         </div>
         <div class="form-group">
           <label for="website">Website URL</label>
           <input
-            type="url"
             id="website"
+            type="url"
             name="website"
-            placeholder="http://www.google.com/"
+            placeholder="https://www.google.com/"
             required
           />
         </div>
         <div class="form-group">
           <label for="password1">Password</label>
           <input
-            type="password"
             id="password1"
+            type="password"
             name="password"
-            placeholder="Create Password (Min. 8 Characters)"
+            placeholder="Create password (Min. 8 Characters)"
             required
             pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
-            title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+            title="Please include atleast 1 uppercase character, 1 lowercase character, 1 digit and 1 special characters"
           />
         </div>
         <div class="form-group">
           <label for="password2">Confirm Password</label>
           <input
-            type="password"
             id="password2"
+            type="password"
+            name="confirmPassword"
             placeholder="Confirm Password"
             required
           />
         </div>
+
         <button type="submit">Register</button>
       </form>
     </div>
-    <!-- Script -->
     <script src="script.js"></script>
   </body>
 </html>
