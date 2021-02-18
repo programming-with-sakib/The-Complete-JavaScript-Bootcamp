@@ -1,0 +1,3126 @@
+[
+  {
+    "_id": "movie:1",
+    "title": "Vertigo",
+    "year": 1958,
+    "genre": "drama",
+    "summary": "Scottie Ferguson, ancien inspecteur de police, est sujet au vertige depuis qu'il a vu mourir son collègue. Elster, son ami, le charge de surveiller sa femme, Madeleine, ayant des tendances suicidaires. Amoureux de la jeune femme Scottie ne remarque pas le piège qui se trame autour de lui et dont il va être la victime... ",
+    "country": "DE",
+    "director": {
+      "_id": "artist:3",
+      "last_name": "Hitchcock",
+      "first_name": "Alfred",
+      "birth_date": "1899"
+    },
+    "actors": [
+      {
+        "_id": "artist:15",
+        "first_name": "James",
+        "last_name": "Stewart",
+        "birth_date": "1908",
+        "role": "John Ferguson"
+      },
+      {
+        "_id": "artist:16",
+        "first_name": "Kim",
+        "last_name": "Novak",
+        "birth_date": "1925",
+        "role": "Madeleine Elster"
+      },
+      {
+        "_id": "artist:282",
+        "first_name": "Arthur",
+        "last_name": "Pierre",
+        "birth_date": null,
+        "role": null
+      }
+    ]
+  },
+  {
+    "_id": "movie:2",
+    "title": "Alien",
+    "year": 1979,
+    "genre": "Science-fiction",
+    "summary": "Près d'un vaisseau spatial échoué sur une lointaine planète, des Terriens en mission découvrent de bien étranges \"oeufs\". Ils en ramènent un à bord, ignorant qu'ils viennent d'introduire parmi eux un huitième passager particulièrement féroce et meurtrier. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:4",
+      "last_name": "Scott",
+      "first_name": "Ridley",
+      "birth_date": "1937"
+    },
+    "actors": [
+      {
+        "_id": "artist:5",
+        "first_name": "Sigourney",
+        "last_name": "Weaver",
+        "birth_date": "1949",
+        "role": "Ripley"
+      }
+    ]
+  },
+  {
+    "_id": "movie:3",
+    "title": "Titanic",
+    "year": 1997,
+    "genre": "drama",
+    "summary": "Conduite par Brock Lovett, une expédition américaine fouillant l'épave du Titanic remonte à la surface le croquis d'une femme nue. Alertée par les médias la dame en question, Rose DeWitt Bukater, aujourd'hui centenaire, rejoint les lieux du naufrage, d'où elle entreprend de conter le récit de son fascinant, étrange et tragique voyage... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:6",
+      "last_name": "Cameron",
+      "first_name": "James",
+      "birth_date": "1954"
+    },
+    "actors": [
+      {
+        "_id": "artist:109",
+        "first_name": "Kate",
+        "last_name": "Winslet",
+        "birth_date": "1975",
+        "role": "Rose DeWitt Bukater"
+      },
+      {
+        "_id": "artist:110",
+        "first_name": "Leonardo",
+        "last_name": "DiCaprio",
+        "birth_date": "1974",
+        "role": "Jack Dawson"
+      }
+    ]
+  },
+  {
+    "_id": "movie:4",
+    "title": "Sacrifice",
+    "year": 1986,
+    "genre": "drama",
+    "summary": null,
+    "country": "FR",
+    "director": {
+      "_id": "artist:9",
+      "last_name": "Tarkovski",
+      "first_name": "Andrei",
+      "birth_date": "1932"
+    },
+    "actors": []
+  },
+  {
+    "_id": "movie:5",
+    "title": "Volte/Face",
+    "year": 1997,
+    "genre": "Action",
+    "summary": "Directeur d'une unité anti-terroriste, Sean Archer recherche Castor Troy, un criminel responsable de la mort de son fils six ans plus tôt. Il parvient à l'arrêter mais apprend que Troy a caché une bombe au Palais des Congrès de Los Angeles. Seul le frère de Troy peut la désamorcer et, pour l'approcher, Archer se fait greffer le visage de Troy. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:10",
+      "last_name": "Woo",
+      "first_name": "John",
+      "birth_date": "1946"
+    },
+    "actors": [
+      {
+        "_id": "artist:11",
+        "first_name": "John",
+        "last_name": "Travolta",
+        "birth_date": "1954",
+        "role": "Sean Archer/Castor Troy"
+      },
+      {
+        "_id": "artist:12",
+        "first_name": "Nicolas",
+        "last_name": "Cage",
+        "birth_date": "1964",
+        "role": "Castor Troy/Sean Archer"
+      }
+    ]
+  },
+  {
+    "_id": "movie:6",
+    "title": "Sleepy Hollow",
+    "year": 1999,
+    "genre": "Fantastique",
+    "summary": "Nouvelle Angleterre, 1799. A Sleepy Hollow, plusieurs cadavres sont retrouvés décapités. La                                      rumeur attribue ces meurtres à un cavalier lui-même sans tête. Mais le fin limier                                      new-yorkais Ichabod Crane ne croit pas en ses aberrations. Tombé sous le charme de la                                      vénéneuse Katrina, il mène son enquête au coeur des sortilèges de Sleepy Hollow.. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:13",
+      "last_name": "Burton",
+      "first_name": "Tim",
+      "birth_date": "1958"
+    },
+    "actors": [
+      {
+        "_id": "artist:14",
+        "first_name": "Johnny",
+        "last_name": "Depp",
+        "birth_date": "1964",
+        "role": "Constable Ichabod Crane"
+      },
+      {
+        "_id": "artist:96",
+        "first_name": "Christina",
+        "last_name": "Ricci",
+        "birth_date": "1980",
+        "role": "Katrina Anne Van Tassel"
+      },
+      {
+        "_id": "artist:97",
+        "first_name": "Christopher",
+        "last_name": "Walken",
+        "birth_date": "1943",
+        "role": "Le cavalier"
+      }
+    ]
+  },
+  {
+    "_id": "movie:7",
+    "title": "American Beauty",
+    "year": 1999,
+    "genre": "Comédie",
+    "summary": "Lester Burnham, sa femme Carolyn et leur fille Jane mènent apparemment une vie des plus heureuses dans leur belle banlieue. Mais derrière cette respectable façade se tisse une étrange et grinçante tragi-comédie familiale où désirs inavoués, frustrations et violences refoulées conduiront inexorablement un homme vers la mort. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:17",
+      "last_name": "Mendes",
+      "first_name": "Sam",
+      "birth_date": "1965"
+    },
+    "actors": [
+      {
+        "_id": "artist:18",
+        "first_name": "Kevin",
+        "last_name": "Spacey",
+        "birth_date": "1959",
+        "role": "Lester Burnham"
+      },
+      {
+        "_id": "artist:19",
+        "first_name": "Anette",
+        "last_name": "Bening",
+        "birth_date": "1958",
+        "role": "Carolyn Burnham"
+      }
+    ]
+  },
+  {
+    "_id": "movie:8",
+    "title": "Impitoyable",
+    "year": 1992,
+    "genre": "Western",
+    "summary": "Légendaire hors-la-loi, William Munny s'est reconverti depuis onze ans en paisible fermier. Il reprend néanmoins les armes pour traquer deux tueurs en compagnie de son vieil ami Ned Logan. Mais ce dernier est capturé, puis éxécute. L'honneur et l'amitié imposent dès lors à Munny de redevenir une dernière fois le héros qu'il fut jadis... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:20",
+      "last_name": "Eastwood",
+      "first_name": "Clint",
+      "birth_date": "1930"
+    },
+    "actors": [
+      {
+        "_id": "artist:20",
+        "first_name": "Clint",
+        "last_name": "Eastwood",
+        "birth_date": "1930",
+        "role": "William Munny"
+      },
+      {
+        "_id": "artist:21",
+        "first_name": "Gene",
+        "last_name": "Hackman",
+        "birth_date": "1930",
+        "role": "Little Bill Dagget"
+      },
+      {
+        "_id": "artist:22",
+        "first_name": "Morgan",
+        "last_name": "Freeman",
+        "birth_date": "1937",
+        "role": "Ned Logan"
+      }
+    ]
+  },
+  {
+    "_id": "movie:9",
+    "title": "Gladiator",
+    "year": 2000,
+    "genre": "drama",
+    "summary": "Le général romain Maximus est le plus fidèle                    soutien de l'empereur Marc Aurèle, qu'il a                    conduit de victoire en victoire avec une                    bravoure et un dévouement exemplaires.                    Jaloux du prestige de Maximus, et plus                    encore de l'amour que lui voue l'empereur,                    le fils de Marc-Aurèle, Commode, s'arroge                    brutalement le pouvoir, puis ordonne                    l'arrestation du général et son exécution.                    Maximus échappe à ses assassins mais ne peut                    empêcher le massacre de sa famille. Capturé                    par un marchand d'esclaves, il devient                    gladiateur et prépare sa vengeance.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:4",
+      "last_name": "Scott",
+      "first_name": "Ridley",
+      "birth_date": "1937"
+    },
+    "actors": [
+      {
+        "_id": "artist:23",
+        "first_name": "Russell",
+        "last_name": "Crowe",
+        "birth_date": "1964",
+        "role": "Maximus"
+      },
+      {
+        "_id": "artist:147",
+        "first_name": "Adam",
+        "last_name": "Baldwin",
+        "birth_date": "1962",
+        "role": "Commode"
+      },
+      {
+        "_id": "artist:148",
+        "first_name": "Ryan",
+        "last_name": "ONeal",
+        "birth_date": "1941",
+        "role": "Lucilla"
+      },
+      {
+        "_id": "artist:149",
+        "first_name": "Marisa",
+        "last_name": "Berenson",
+        "birth_date": "1946",
+        "role": "Marc Aurele"
+      }
+    ]
+  },
+  {
+    "_id": "movie:10",
+    "title": "Blade Runner",
+    "year": 1982,
+    "genre": "Action",
+    "summary": "En 2019, lors de la décadence de Los Angeles, des êtres synthétiques, sans pensée, sans émotions, suffisent aux différents travaux d'entretien. Leur durée de vie n'excède pas 4 années. Un jour, ces ombres humaines se révoltent et on charge les tueurs, appelés Blade Runner, de les abattre... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:4",
+      "last_name": "Scott",
+      "first_name": "Ridley",
+      "birth_date": "1937"
+    },
+    "actors": [
+      {
+        "_id": "artist:24",
+        "first_name": "Harrison",
+        "last_name": "Ford",
+        "birth_date": "1942",
+        "role": "Deckard"
+      },
+      {
+        "_id": "artist:25",
+        "first_name": "Rutger",
+        "last_name": "Hauer",
+        "birth_date": "1944",
+        "role": "Batty"
+      }
+    ]
+  },
+  {
+    "_id": "movie:11",
+    "title": "Piège de cristal",
+    "year": 1988,
+    "genre": "Action",
+    "summary": "John Mc Clane, policier new-yorkais, vient passer Noel a Los Angeles aupres de sa femme. Dans le building ou elle travaille, il se retrouve temoin de la prise en otage de tout le personnel par 12 terroristes. Objectif de ces derniers, vider les coffres de la societe. Cache mais isole, il entreprend de prevenir l'exterieur...",
+    "country": "USA",
+    "director": {
+      "_id": "artist:26",
+      "last_name": "McTierman",
+      "first_name": "John",
+      "birth_date": "1951"
+    },
+    "actors": [
+      {
+        "_id": "artist:27",
+        "first_name": "Bruce",
+        "last_name": "Willis",
+        "birth_date": "1955",
+        "role": "McClane"
+      }
+    ]
+  },
+  {
+    "_id": "movie:12",
+    "title": "58 minutes pour vivre",
+    "year": 1990,
+    "genre": "Action",
+    "summary": " Venu attendre sa femme a l'aéroport, le policier John McClane remarque la présence de terroristes qui ont pris le contrôle des pistes, empêchant tout avion d'atterrir et menaçant de laisser les appareils en vol tourner jusqu'à épuisement de leur kérosène. John n'a devant lui que 58 minutes pour éviter la catastrophe... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:28",
+      "last_name": "Harlin",
+      "first_name": "Renny",
+      "birth_date": "1959"
+    },
+    "actors": [
+      {
+        "_id": "artist:27",
+        "first_name": "Bruce",
+        "last_name": "Willis",
+        "birth_date": "1955",
+        "role": "McClane"
+      }
+    ]
+  },
+  {
+    "_id": "movie:13",
+    "title": "Van Gogh",
+    "year": 1990,
+    "genre": "drama",
+    "summary": "Les derniers jours de la vie de Vincent Van Gogh, réfugié à Auvers-sur-Oise, près de chez son ami et protecteur le docteur Gachet, un ami de son frère Théo. Ce peintre maudit, que les villageois surlast_namemaient \"le fou\", n'avait alors plus que deux mois à vivre, qu'il passa en peignant un tableau par jour. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:29",
+      "last_name": "Pialat",
+      "first_name": "Maurice",
+      "birth_date": "1925"
+    },
+    "actors": [
+      {
+        "_id": "artist:30",
+        "first_name": "Jacques",
+        "last_name": "Dutronc",
+        "birth_date": "1943",
+        "role": "Van Gogh"
+      }
+    ]
+  },
+  {
+    "_id": "movie:14",
+    "title": "Seven",
+    "year": 1995,
+    "genre": "crime",
+    "summary": "A New York, un criminel anonyme a décidé de commettre 7 meurtres basés sur les 7 pêchés capitaux énoncés dans la Bible : gourmandise, avarice, paresse, orgueil, luxure, envie et colère. Vieux flic blasé à 7 jours de la retraite, l'inspecteur Somerset mène l'enquête tout en formant son remplaçant, l'ambitieux inspecteur David Mills... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:31",
+      "last_name": "Fincher",
+      "first_name": "David",
+      "birth_date": "1962"
+    },
+    "actors": [
+      {
+        "_id": "artist:18",
+        "first_name": "Kevin",
+        "last_name": "Spacey",
+        "birth_date": "1959",
+        "role": "Doe"
+      },
+      {
+        "_id": "artist:22",
+        "first_name": "Morgan",
+        "last_name": "Freeman",
+        "birth_date": "1937",
+        "role": "Somerset"
+      },
+      {
+        "_id": "artist:32",
+        "first_name": "Brad",
+        "last_name": "Pitt",
+        "birth_date": "1963",
+        "role": "Mills"
+      }
+    ]
+  },
+  {
+    "_id": "movie:15",
+    "title": "Twelve Monkeys",
+    "year": 1995,
+    "genre": "Science-fiction",
+    "summary": null,
+    "country": "USA",
+    "director": {
+      "_id": "artist:33",
+      "last_name": "Gilliam",
+      "first_name": "Terry",
+      "birth_date": "1940"
+    },
+    "actors": [
+      {
+        "_id": "artist:27",
+        "first_name": "Bruce",
+        "last_name": "Willis",
+        "birth_date": "1955",
+        "role": "Cole"
+      }
+    ]
+  },
+  {
+    "_id": "movie:16",
+    "title": "Le last_name de la rose",
+    "year": 1986,
+    "genre": "crime",
+    "summary": "En l'an 1327, dans une abbaye bénédictine, le moine franciscain Guillaume de Baskerville, accompagné de son jeune novice Adso, enquête sur de mystérieuses morts qui frappent la confrérie. Le secret semble résider dans la bibliothèque, où le vieux Jorge garde jalousement un livre jugé maudit. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:34",
+      "last_name": "Annaud",
+      "first_name": "Jean-Jacques",
+      "birth_date": "1943"
+    },
+    "actors": [
+      {
+        "_id": "artist:35",
+        "first_name": "Sean",
+        "last_name": "Connery",
+        "birth_date": "1930",
+        "role": "Baskerville"
+      },
+      {
+        "_id": "artist:36",
+        "first_name": "Christian",
+        "last_name": "Slater",
+        "birth_date": "1969",
+        "role": "de Melk"
+      }
+    ]
+  },
+  {
+    "_id": "movie:17",
+    "title": "Pulp fiction",
+    "year": 1994,
+    "genre": "Action",
+    "summary": "Pulp Fiction décrit l'odyssée sanglante et burlesque de petits malfrats dans la jungle de Hollywood, ou s'entrecroisent les destins de deux petits tueurs, d'un dangereux gangster marié à une camée, d'un boxeur roublard, de prêteurs sur gages sadiques, d'un caïd élégant et dévoué, d'un dealer bon mari et de deux tourtereaux à la gachette facile... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:37",
+      "last_name": "Tarantino",
+      "first_name": "Quentin",
+      "birth_date": "1963"
+    },
+    "actors": [
+      {
+        "_id": "artist:11",
+        "first_name": "John",
+        "last_name": "Travolta",
+        "birth_date": "1954",
+        "role": "Vincent Vega"
+      },
+      {
+        "_id": "artist:27",
+        "first_name": "Bruce",
+        "last_name": "Willis",
+        "birth_date": "1955",
+        "role": "Butch Coolidge"
+      },
+      {
+        "_id": "artist:37",
+        "first_name": "Quentin",
+        "last_name": "Tarantino",
+        "birth_date": "1963",
+        "role": "Jimmy Dimmick"
+      },
+      {
+        "_id": "artist:38",
+        "first_name": "Samuel L.",
+        "last_name": "Jackson",
+        "birth_date": "1948",
+        "role": "Jules Winnfield"
+      },
+      {
+        "_id": "artist:39",
+        "first_name": "Rosanna",
+        "last_name": "Arquette",
+        "birth_date": "1959",
+        "role": "Jody"
+      },
+      {
+        "_id": "artist:40",
+        "first_name": "Uma",
+        "last_name": "Thurman",
+        "birth_date": "1970",
+        "role": "Mia Wallace"
+      },
+      {
+        "_id": "artist:97",
+        "first_name": "Christopher",
+        "last_name": "Walken",
+        "birth_date": "1943",
+        "role": "Capt. Koons"
+      },
+      {
+        "_id": "artist:98",
+        "first_name": "Harvey",
+        "last_name": "Keitel",
+        "birth_date": "1939",
+        "role": "Winston \"The Wolf\" Wolfe"
+      },
+      {
+        "_id": "artist:99",
+        "first_name": "Tim",
+        "last_name": "Roth",
+        "birth_date": "1961",
+        "role": "Pumpkin (Ringo)"
+      }
+    ]
+  },
+  {
+    "_id": "movie:18",
+    "title": "Mary à tout prix",
+    "year": 1998,
+    "genre": "Comédie",
+    "summary": "Pour retrouver l'amour de sa jeunesse, la belle Mary, Ted-le-looser engage Pat Healy, un privé. Subjugé par la jeune femme, ce dernier tente de la séduire en se faisant passer pour un architecte. Il cache la vérité à Ted et fait cause commune avec Tucker, un autre prétendant, pour se débarrasser de l'encombrant Ted... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:41",
+      "last_name": "Farrelly",
+      "first_name": "Bobby",
+      "birth_date": "1958"
+    },
+    "actors": [
+      {
+        "_id": "artist:42",
+        "first_name": "Cameron",
+        "last_name": "Diaz",
+        "birth_date": "1972",
+        "role": "Mary Jensen Matthews"
+      },
+      {
+        "_id": "artist:43",
+        "first_name": "Mat",
+        "last_name": "Dillon",
+        "birth_date": "1964",
+        "role": "Pat Healy"
+      }
+    ]
+  },
+  {
+    "_id": "movie:19",
+    "title": "Terminator",
+    "year": 1984,
+    "genre": "Science-fiction",
+    "summary": "Deux creatures venues du futur debarquent sur terre. L'une d'entre elles, le Terminator, doit eliminer une certaine Sarah Connor, qui doit enfanter celui qui sera le chef d'un groupe de resistants. L'autre, Kyle Reese, est charge par les rebelles de defendre Sarah... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:6",
+      "last_name": "Cameron",
+      "first_name": "James",
+      "birth_date": "1954"
+    },
+    "actors": [
+      {
+        "_id": "artist:44",
+        "first_name": "Arnold",
+        "last_name": "Schwartzenegger",
+        "birth_date": "1947",
+        "role": "Terminator"
+      }
+    ]
+  },
+  {
+    "_id": "movie:20",
+    "title": "Les dents de la mer",
+    "year": 1975,
+    "genre": "Horreur",
+    "summary": "Dans la station balnéaire d'Amityville, un requin géant frappe à plusieurs reprises. Soucieux d'une bonne saison touristique, le maire interdit au sherif Brody de fermer les plages. Une prime est offerte et le célèbre chasseur de requin Quint se lance avec Brody et l'ichtyologue Hooper à la poursuite du monstre... ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:45",
+      "last_name": "Spielberg",
+      "first_name": "Steven",
+      "birth_date": "1946"
+    },
+    "actors": [
+      {
+        "_id": "artist:46",
+        "first_name": "Roy",
+        "last_name": "Scheider",
+        "birth_date": "1932",
+        "role": "Martin Brody"
+      },
+      {
+        "_id": "artist:47",
+        "first_name": "Robert",
+        "last_name": "Shaw",
+        "birth_date": "1927",
+        "role": "Quint"
+      },
+      {
+        "_id": "artist:48",
+        "first_name": "Richard",
+        "last_name": "Dreyfus",
+        "birth_date": "1947",
+        "role": "Matt Hooper"
+      }
+    ]
+  },
+  {
+    "_id": "movie:21",
+    "title": "Le silence des agneaux",
+    "year": 1990,
+    "genre": "crime",
+    "summary": "Afin de retrouver la piste d'un tueur surlast_namemé Buffalo Bill car il scalpe les femmes qu'il assassine, la jeune stagiaire du FBI Clarice Starling est dépêchée auprès d'Hannibal Lecter, prisonnier pour avoir dévoré ses victimes. La coopération de ce dernier devrait permettre à Clarice de saisir et d'anticiper le comportement de Buffalo... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:49",
+      "last_name": "Demme",
+      "first_name": "Jonathan",
+      "birth_date": "1944"
+    },
+    "actors": [
+      {
+        "_id": "artist:50",
+        "first_name": "Anthony",
+        "last_name": "Hopkins",
+        "birth_date": "1937",
+        "role": "Dr. Hannibal Lecter"
+      },
+      {
+        "_id": "artist:51",
+        "first_name": "Jodie",
+        "last_name": "Foster",
+        "birth_date": null,
+        "role": "Clarice Starling"
+      }
+    ]
+  },
+  {
+    "_id": "movie:22",
+    "title": "Godzilla",
+    "year": 1998,
+    "genre": "Action",
+    "summary": "Issu des radiations atomiques engendrées par les essais nucléaires en Polynésie, un monstre gigantesque, aussi haut qu'un building, se dirige vers New York, semant le chaos sur son passage. Pour tenter de stopper cette créature destructrice, l'armée s'associe à une équipe de scientifiques américains et à un énigmatique enquêteur français... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:58",
+      "last_name": "Emmerich",
+      "first_name": "Roland",
+      "birth_date": "1955"
+    },
+    "actors": [
+      {
+        "_id": "artist:59",
+        "first_name": "Matthew",
+        "last_name": "Broderick",
+        "birth_date": "1962",
+        "role": "Dr. Nikos Tatopoulos"
+      },
+      {
+        "_id": "artist:60",
+        "first_name": "Jean",
+        "last_name": "Reno",
+        "birth_date": "1948",
+        "role": "Philippe Roaché"
+      }
+    ]
+  },
+  {
+    "_id": "movie:23",
+    "title": "Matrix",
+    "year": 1999,
+    "genre": "Science-fiction",
+    "summary": "Dans un monde où tout ce qui semble réel est en fait élaboré par l'univers électronique baptisé la Matrice, Néo, un programmeur, est contacté par un certain Morpheus. D'après lui, Néo serait le Libérateur tant attendu, le seul capable de mettre en échec l'omnipotence de la Matrice et rendre ses droits à la réalité... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:61",
+      "last_name": "Wachowski",
+      "first_name": "Andy",
+      "birth_date": "1967"
+    },
+    "actors": [
+      {
+        "_id": "artist:62",
+        "first_name": "Keanu",
+        "last_name": "Reeves",
+        "birth_date": "1964",
+        "role": "Neo"
+      },
+      {
+        "_id": "artist:63",
+        "first_name": "Laurence",
+        "last_name": "Fishburne",
+        "birth_date": "1961",
+        "role": "Morpheus"
+      }
+    ]
+  },
+  {
+    "_id": "movie:24",
+    "title": "Mission: Impossible",
+    "year": 1996,
+    "genre": "Action",
+    "summary": "Chargé d'une nouvelle mission, l'agent du contre espionnage Ethan Hunt tombe avec son équipe dans un piège sanglant. Seul survivant avec Claire, la jeune épouse de son regretté chef Jim Phelps, Ethan se retrouve accusé de trahison. En fuite, il prépare sa contre-attaque, recrutant l'homme de main Krieger et le pirate informatique Luther... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:64",
+      "last_name": "De Palma",
+      "first_name": "Brian",
+      "birth_date": "1940"
+    },
+    "actors": [
+      {
+        "_id": "artist:60",
+        "first_name": "Jean",
+        "last_name": "Reno",
+        "birth_date": "1948",
+        "role": "Franz Krieger"
+      },
+      {
+        "_id": "artist:65",
+        "first_name": "Tom",
+        "last_name": "Cruise",
+        "birth_date": "1962",
+        "role": "Ethan Hunt"
+      },
+      {
+        "_id": "artist:66",
+        "first_name": "John",
+        "last_name": "Voight",
+        "birth_date": "1938",
+        "role": "Jim Phelps"
+      },
+      {
+        "_id": "artist:67",
+        "first_name": "Emmanuelle",
+        "last_name": "Bart",
+        "birth_date": "1965",
+        "role": "Claire Phelps"
+      }
+    ]
+  },
+  {
+    "_id": "movie:25",
+    "title": "Kagemusha",
+    "year": 1980,
+    "genre": "Guerre",
+    "summary": "Au XVIe siecle, Takeda, grand seigneur trouble par les guerres civiles de son pays, fait appel a un Kagemusha pour l'aider dans ses batailles. Takeda est blesse et avant de mourir, il exige que sa mort soit tenue secrete pendant trois ans afin d'eviter un eclatement du clan. Le Kagemusha devra le remplacer... ",
+    "country": "JP",
+    "director": {
+      "_id": "artist:68",
+      "last_name": "Kurozawa",
+      "first_name": "Akira",
+      "birth_date": "1910"
+    },
+    "actors": []
+  },
+  {
+    "_id": "movie:26",
+    "title": "Les pleins pouvoirs",
+    "year": 1997,
+    "genre": "crime",
+    "summary": "Luther Whitney est l'as des cambrioleurs. Occupé à vider le coffre de l'influent Walter Sullivan, il est témoin d'un meurtre sadique impliquant le Président des Etats-Unis et les services secrets. Soupçonné par la police d'en être l'auteur, il se retrouve également traqué par les tueurs, qui ont compris qu'ils ont été observés.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:20",
+      "last_name": "Eastwood",
+      "first_name": "Clint",
+      "birth_date": "1930"
+    },
+    "actors": [
+      {
+        "_id": "artist:20",
+        "first_name": "Clint",
+        "last_name": "Eastwood",
+        "birth_date": "1930",
+        "role": "Luther Whitney"
+      },
+      {
+        "_id": "artist:21",
+        "first_name": "Gene",
+        "last_name": "Hackman",
+        "birth_date": "1930",
+        "role": "Le président Richmond"
+      },
+      {
+        "_id": "artist:69",
+        "first_name": "Ed",
+        "last_name": "Harris",
+        "birth_date": "1950",
+        "role": "Seth Frank"
+      }
+    ]
+  },
+  {
+    "_id": "movie:27",
+    "title": "Le gendarme et les extra-terrestres",
+    "year": 1978,
+    "genre": "Comédie",
+    "summary": "En anglais: Gendarme and the Creatures from Outer Space !",
+    "country": "FR",
+    "director": {
+      "_id": "artist:71",
+      "last_name": "Girault",
+      "first_name": "Jean",
+      "birth_date": "1924"
+    },
+    "actors": [
+      {
+        "_id": "artist:72",
+        "first_name": "Louis",
+        "last_name": "De Funs",
+        "birth_date": "1914",
+        "role": "Inspecteur Cruchot"
+      },
+      {
+        "_id": "artist:73",
+        "first_name": "Michel",
+        "last_name": "Galabru",
+        "birth_date": "1922",
+        "role": "Adjudant Gerber"
+      }
+    ]
+  },
+  {
+    "_id": "movie:28",
+    "title": "Le monde perdu",
+    "year": 1997,
+    "genre": "Horreur",
+    "summary": null,
+    "country": "USA",
+    "director": {
+      "_id": "artist:45",
+      "last_name": "Spielberg",
+      "first_name": "Steven",
+      "birth_date": "1946"
+    },
+    "actors": [
+      {
+        "_id": "artist:57",
+        "first_name": "Jeff",
+        "last_name": "Goldblum",
+        "birth_date": "1952",
+        "role": "Dr. Ian Malcolm"
+      }
+    ]
+  },
+  {
+    "_id": "movie:29",
+    "title": "Rain Man",
+    "year": 1988,
+    "genre": "drama",
+    "summary": "A la mort de son père, Charlie se voit déposséder de son héritage par un frère dont il ignorait l'existence, Raymond. Celui-ci est autiste et vit dans un hôpital psychiatrique. Charlie enlève Raymond afin de prouver qu'il est capable de s'en occuper et de toucher l'héritage. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:79",
+      "last_name": "Levinson",
+      "first_name": "Barry",
+      "birth_date": "1942"
+    },
+    "actors": [
+      {
+        "_id": "artist:65",
+        "first_name": "Tom",
+        "last_name": "Cruise",
+        "birth_date": "1962",
+        "role": "Charlie Babbitt"
+      },
+      {
+        "_id": "artist:80",
+        "first_name": "Dustin",
+        "last_name": "Hoffman",
+        "birth_date": "1937",
+        "role": "Raymond Babbitt"
+      }
+    ]
+  },
+  {
+    "_id": "movie:30",
+    "title": "Top Gun",
+    "year": 1986,
+    "genre": "Action",
+    "summary": " Pilote de chasse émérite mais casse-cou Maverick Mitchell est admis à Top Gun, l'école de l'élite de l'aéronavale. Son manque de prudence lui attire les foudres de ses supérieurs et la haine de certains coéquipiers. Il perd subitement la foi et confiance en lui quand son ami de toujours meurt en vol et qu'il s'en croit responsable... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:81",
+      "last_name": "Scott",
+      "first_name": "Tony",
+      "birth_date": "1944"
+    },
+    "actors": [
+      {
+        "_id": "artist:53",
+        "first_name": "Val",
+        "last_name": "Kilmer",
+        "birth_date": "1959",
+        "role": "Iceman"
+      },
+      {
+        "_id": "artist:65",
+        "first_name": "Tom",
+        "last_name": "Cruise",
+        "birth_date": "1962",
+        "role": "Lt. Pete Maverick Mitchell"
+      },
+      {
+        "_id": "artist:82",
+        "first_name": "Kelly",
+        "last_name": "McGillis",
+        "birth_date": "1957",
+        "role": "Charlotte Blackwood"
+      }
+    ]
+  },
+  {
+    "_id": "movie:31",
+    "title": "Les bronzés font du ski",
+    "year": 1979,
+    "genre": "Comédie",
+    "summary": "Apres avoir passe des vacances d'ete ensemble, Bernard, Nathalie, Gigi, Jerome, Popeye, Jean-Claude et Christiane se retrouvent aux sports d'hiver. Tous ont leurs problemes de coeur ou d'argent, mais il faut bien vivre avec. Avant de se separer, se perdre dans la montagne leur permet de gouter aux joies de la \"vraie vie\" paysanne... ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:83",
+      "last_name": "Leconte",
+      "first_name": "Patrice",
+      "birth_date": "1947"
+    },
+    "actors": [
+      {
+        "_id": "artist:75",
+        "first_name": "Josiane",
+        "last_name": "Balasko",
+        "birth_date": "1950",
+        "role": "Nathalie Morin"
+      },
+      {
+        "_id": "artist:76",
+        "first_name": "Dominique",
+        "last_name": "Lavanant",
+        "birth_date": "1944",
+        "role": "Christiane"
+      },
+      {
+        "_id": "artist:84",
+        "first_name": "Michel",
+        "last_name": "Blanc",
+        "birth_date": "1952",
+        "role": "Jean-Claude Dus"
+      },
+      {
+        "_id": "artist:85",
+        "first_name": "Christian",
+        "last_name": "Clavier",
+        "birth_date": "1952",
+        "role": "Jérôme"
+      },
+      {
+        "_id": "artist:86",
+        "first_name": "Thierry",
+        "last_name": "Lhermite",
+        "birth_date": "1952",
+        "role": "Popeye"
+      }
+    ]
+  },
+  {
+    "_id": "movie:32",
+    "title": "Le bon, la brute et le truand",
+    "year": 1966,
+    "genre": "Western",
+    "summary": "Pendant la Guerre de Sécession, trois hommes, préférant s'intéresser à leur profit personnel, se lancent à la recherche d'un coffre contenant 200 000 dollars en pièces d'or volés à l'armée sudiste. Tuco sait que le trésor se trouve dans un cimetière, tandis que Joe connaît le last_name inscrit sur la pierre tombale qui sert de cache. Chacun a besoin de l'autre. Mais un troisième homme entre dans la course : Setenza, une brute qui n'hésite pas à massacrer femmes et enfants pour parvenir à ses fins.",
+    "country": "IT",
+    "director": {
+      "_id": "artist:219",
+      "last_name": "Leone",
+      "first_name": "Sergio",
+      "birth_date": "1929"
+    },
+    "actors": [
+      {
+        "_id": "artist:20",
+        "first_name": "Clint",
+        "last_name": "Eastwood",
+        "birth_date": "1930",
+        "role": null
+      }
+    ]
+  },
+  {
+    "_id": "movie:33",
+    "title": "Psychose",
+    "year": 1960,
+    "genre": "Thriller",
+    "summary": "Après avoir volé 40 000 dollars, Marion Crane se rend dans un motel tenu par Norman Bates. Elle est poignardée sous sa douche par une femme. Norman fait disparaitre le corps et les affaires de la jeune femme. Mais Sam, le fiancé de Marion, inquiet de ne pas avoir de nouvelles, engage un détective pour la retrouver... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:3",
+      "last_name": "Hitchcock",
+      "first_name": "Alfred",
+      "birth_date": "1899"
+    },
+    "actors": [
+      {
+        "_id": "artist:88",
+        "first_name": "Anthony",
+        "last_name": "Perkins",
+        "birth_date": "1932",
+        "role": "Bates"
+      },
+      {
+        "_id": "artist:89",
+        "first_name": "Vera",
+        "last_name": "Miles",
+        "birth_date": "1929",
+        "role": "Lila Crane"
+      },
+      {
+        "_id": "artist:90",
+        "first_name": "Janet",
+        "last_name": "Leigh",
+        "birth_date": "1927",
+        "role": "Marion Crane"
+      }
+    ]
+  },
+  {
+    "_id": "movie:34",
+    "title": "Le retour du Jedi",
+    "year": 1983,
+    "genre": "Science-fiction",
+    "summary": "Luke Skywalker s'introduit chez Jabba pour delivrer Han Solo et la princesse Leia, tandis que l'Empire reconstruit une deuxieme \"Etoile de la Mort\". Luke se rend ensuite au chevet de Yoda qui est mourant. Il lui apprend que Leia est sa soeur. Luke forme un commando pour attaquer l'Etoile, tandis qu'il affronte son pere, Darth Vador... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:91",
+      "last_name": "Marquand",
+      "first_name": "Richard",
+      "birth_date": "1938"
+    },
+    "actors": [
+      {
+        "_id": "artist:24",
+        "first_name": "Harrison",
+        "last_name": "Ford",
+        "birth_date": "1942",
+        "role": "Han Solo"
+      },
+      {
+        "_id": "artist:92",
+        "first_name": "Mark",
+        "last_name": "Hamill",
+        "birth_date": "1951",
+        "role": "Luke Skywalker"
+      },
+      {
+        "_id": "artist:93",
+        "first_name": "Carrie",
+        "last_name": "Fisher",
+        "birth_date": "1956",
+        "role": "Princesse Leia"
+      }
+    ]
+  },
+  {
+    "_id": "movie:35",
+    "title": "Les oiseaux",
+    "year": 1963,
+    "genre": "Horreur",
+    "summary": "Melanie Daniels se rend à Bodega Bay pour offrir deux perruches en cage à Cathy, la soeur de l'avocat Mitch Brenner. Attaquée par une mouette, Melanie reste chez les Brenner pour la nuit. Mais d'autres évènements étranges se produisent: des enfants sont blessés par des corbeaux et la maison de Mitch est envahie par des milliers d'oiseaux. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:3",
+      "last_name": "Hitchcock",
+      "first_name": "Alfred",
+      "birth_date": "1899"
+    },
+    "actors": [
+      {
+        "_id": "artist:94",
+        "first_name": "Rod",
+        "last_name": "Taylor",
+        "birth_date": "1930",
+        "role": "Mitch Brenner"
+      },
+      {
+        "_id": "artist:95",
+        "first_name": "Tippi",
+        "last_name": "Hedren",
+        "birth_date": "1931",
+        "role": "Melanie Daniels"
+      }
+    ]
+  },
+  {
+    "_id": "movie:36",
+    "title": "Reservoir dogs",
+    "year": 1992,
+    "genre": "crime",
+    "summary": "Après un hold-up manqué, des cambrioleurs de haut vol font leurs comptes dans une confrontation violente, pour découvrir lequel d'entre eux les a trahis. Voleurs de profession, Joe Cabot et son fils Eddie engagent un groupe de six criminels pour le cambriolage d'un diamantaire. Malgré toutes les précautions prises, la police est sur place le jour J, et l'opération se solde par un massacre. Les survivants du gang se réunissent pour règler leurs comptes, chacun soupçonnant l'autre d'avoir trahi. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:37",
+      "last_name": "Tarantino",
+      "first_name": "Quentin",
+      "birth_date": "1963"
+    },
+    "actors": [
+      {
+        "_id": "artist:37",
+        "first_name": "Quentin",
+        "last_name": "Tarantino",
+        "birth_date": "1963",
+        "role": "Mr. Brown"
+      },
+      {
+        "_id": "artist:98",
+        "first_name": "Harvey",
+        "last_name": "Keitel",
+        "birth_date": "1939",
+        "role": "Mr. White/Larry"
+      },
+      {
+        "_id": "artist:99",
+        "first_name": "Tim",
+        "last_name": "Roth",
+        "birth_date": "1961",
+        "role": "Freddy Newendyke/Mr. Orange"
+      },
+      {
+        "_id": "artist:100",
+        "first_name": "Chris",
+        "last_name": "Penn",
+        "birth_date": "1966",
+        "role": "Nice Guy Eddie"
+      },
+      {
+        "_id": "artist:215",
+        "first_name": "Michael",
+        "last_name": "Madsen",
+        "birth_date": "1958",
+        "role": "Mr Blonde"
+      },
+      {
+        "_id": "artist:217",
+        "first_name": "Steve",
+        "last_name": "Buscemi",
+        "birth_date": "1957",
+        "role": "Mr Pink"
+      },
+      {
+        "_id": "artist:218",
+        "first_name": "Edward",
+        "last_name": "Bunker",
+        "birth_date": "1933",
+        "role": "Mr Blue"
+      }
+    ]
+  },
+  {
+    "_id": "movie:37",
+    "title": "Eyes Wide Shut",
+    "year": 1999,
+    "genre": "Thriller",
+    "summary": "Un couple de bourgeois, cédant à la jalousie et à l'obsession sexuelle, entreprend un voyage psychologique à la recherche de son identité. Le mari, au bout de son périple nocturne, revenu de ses désirs, ne trouvera finalement auprès de son épouse qu'un compromis banal mais complice, les yeux ouverts à tout jamais sur un rêve impossible. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:101",
+      "last_name": "Kubrick",
+      "first_name": "Stanley",
+      "birth_date": "1928"
+    },
+    "actors": [
+      {
+        "_id": "artist:65",
+        "first_name": "Tom",
+        "last_name": "Cruise",
+        "birth_date": "1962",
+        "role": "Docteur William \"Bill\" Harford"
+      },
+      {
+        "_id": "artist:102",
+        "first_name": "Nicole",
+        "last_name": "Kidman",
+        "birth_date": "1967",
+        "role": "Alice Harford"
+      }
+    ]
+  },
+  {
+    "_id": "movie:38",
+    "title": "Shining",
+    "year": 1980,
+    "genre": "Horreur",
+    "summary": "Jack Torrance s'installe avec sa femme et son fils Danny dans un hôtel fermé à la morte saison afin d'écrire un roman. Il apprend que le gardien précédent a tué sa femme et ses deux filles avant de se suicider. Très vite, Jack va s'apercevoir que des choses étranges se passent autour de lui et que son fils a des pouvoirs extrasensoriels... ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:101",
+      "last_name": "Kubrick",
+      "first_name": "Stanley",
+      "birth_date": "1928"
+    },
+    "actors": [
+      {
+        "_id": "artist:103",
+        "first_name": "Jack",
+        "last_name": "Nicholson",
+        "birth_date": "1937",
+        "role": "Jack Torrance"
+      }
+    ]
+  },
+  {
+    "_id": "movie:39",
+    "title": "Pas de printemps pour Marnie",
+    "year": 1964,
+    "genre": "Thriller",
+    "summary": "Marnie est engagée comme secrétaire chez un editeur, Mark Rutland. Celui-ci amoureux d'elle, découvre qu'elle est kleptomane et l'oblige à l'épouser en la menaçant de la dénoncer. En s'apercevant que Marnie a la phobie de la cou leur rouge, Mark tente de remonter dans le passé de la jeune femme afin de comprendre les raisons de sa névrose. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:3",
+      "last_name": "Hitchcock",
+      "first_name": "Alfred",
+      "birth_date": "1899"
+    },
+    "actors": [
+      {
+        "_id": "artist:35",
+        "first_name": "Sean",
+        "last_name": "Connery",
+        "birth_date": "1930",
+        "role": "\n                       Mark R"
+      },
+      {
+        "_id": "artist:95",
+        "first_name": "Tippi",
+        "last_name": "Hedren",
+        "birth_date": "1931",
+        "role": "Marnie Edgar"
+      }
+    ]
+  },
+  {
+    "_id": "movie:40",
+    "title": "Fenêtre sur cour",
+    "year": 1954,
+    "genre": "Suspense",
+    "summary": "En repos forcé à cause d'une jambe plâtrée, le reporter L.B. Jefferies observe au téléobjectif les voisins de l'immeuble d'en face. C'est ainsi qu'il remarque le curieux manège d'un représentant de commerce, M. Thorwald, qu'il soupconne très vite d'avoir assassiné sa femme... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:3",
+      "last_name": "Hitchcock",
+      "first_name": "Alfred",
+      "birth_date": "1899"
+    },
+    "actors": []
+  },
+  {
+    "_id": "movie:41",
+    "title": "La mort aux trousses",
+    "year": 1959,
+    "genre": "Suspense",
+    "summary": "Roger Thornhill, publiciste, est pris dans le hall de son hôtel pour un certain Kaplan, un espion. Deux hommes tentent de le tuer et quand il retrouve l'un de ses agresseurs, celui-ci est assassiné devant ses yeux. Pris pour un meurtrier, il est obligé de fuir vers Chicago... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:3",
+      "last_name": "Hitchcock",
+      "first_name": "Alfred",
+      "birth_date": "1899"
+    },
+    "actors": [
+      {
+        "_id": "artist:105",
+        "first_name": "Cary",
+        "last_name": "Grant",
+        "birth_date": "1904",
+        "role": "Roger O. Thornhill"
+      },
+      {
+        "_id": "artist:106",
+        "first_name": "Eva Marie",
+        "last_name": "Saint",
+        "birth_date": "1924",
+        "role": "Eve Kendall"
+      },
+      {
+        "_id": "artist:107",
+        "first_name": "James",
+        "last_name": "Mason",
+        "birth_date": "1909",
+        "role": "Philipp Vandamm"
+      }
+    ]
+  },
+  {
+    "_id": "movie:42",
+    "title": "Jeanne d'Arc",
+    "year": 1999,
+    "genre": "Guerre",
+    "summary": null,
+    "country": "FR",
+    "director": {
+      "_id": "artist:111",
+      "last_name": "Besson",
+      "first_name": "Luc",
+      "birth_date": "1959"
+    },
+    "actors": [
+      {
+        "_id": "artist:80",
+        "first_name": "Dustin",
+        "last_name": "Hoffman",
+        "birth_date": "1937",
+        "role": null
+      },
+      {
+        "_id": "artist:112",
+        "first_name": "Milla",
+        "last_name": "Jovovich",
+        "birth_date": "1975",
+        "role": "Jeanne d'Arc"
+      },
+      {
+        "_id": "artist:113",
+        "first_name": "Fane",
+        "last_name": "Dunaway",
+        "birth_date": "1941",
+        "role": "Yolande d'Aragon"
+      },
+      {
+        "_id": "artist:114",
+        "first_name": "John",
+        "last_name": "Malkovitch",
+        "birth_date": "1953",
+        "role": "Charles VII"
+      },
+      {
+        "_id": "artist:115",
+        "first_name": "Tchky",
+        "last_name": "Karyo",
+        "birth_date": "1953",
+        "role": "Dunois"
+      }
+    ]
+  },
+  {
+    "_id": "movie:43",
+    "title": "Le cinquième élément",
+    "year": 1997,
+    "genre": "Science-fiction",
+    "summary": "Au XXIIIème siècle, dans un univers étrange et coloré, où tout espoir de survie est impossible sans la découverte du Cinquième Elément, un héros peu ordinaire affronte le mal pour sauver l'humanité. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:111",
+      "last_name": "Besson",
+      "first_name": "Luc",
+      "birth_date": "1959"
+    },
+    "actors": [
+      {
+        "_id": "artist:27",
+        "first_name": "Bruce",
+        "last_name": "Willis",
+        "birth_date": "1955",
+        "role": "Major Korben Dalla"
+      },
+      {
+        "_id": "artist:112",
+        "first_name": "Milla",
+        "last_name": "Jovovich",
+        "birth_date": "1975",
+        "role": "Leeloo"
+      },
+      {
+        "_id": "artist:116",
+        "first_name": "Gary",
+        "last_name": "Oldman",
+        "birth_date": "1958",
+        "role": "Jean-Baptiste Emmanuel Zorg"
+      },
+      {
+        "_id": "artist:117",
+        "first_name": "Ian",
+        "last_name": "Holm",
+        "birth_date": "1931",
+        "role": "Vito Cornelius"
+      }
+    ]
+  },
+  {
+    "_id": "movie:44",
+    "title": "Léon",
+    "year": 1994,
+    "genre": "Action",
+    "summary": "\"Léon est un tueur. Un de la pire espèce. Il est introuvable, indétectable, pire qu'un sous-marin. Son ombre est comme une menace de danger permanent sur New York. Indestructible Léon ? Oui, jusqu'à ce qu'une petite souris pénètre son univers. Une toute petite souris aux yeux immenses...\" ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:111",
+      "last_name": "Besson",
+      "first_name": "Luc",
+      "birth_date": "1959"
+    },
+    "actors": [
+      {
+        "_id": "artist:60",
+        "first_name": "Jean",
+        "last_name": "Reno",
+        "birth_date": "1948",
+        "role": "Léon"
+      },
+      {
+        "_id": "artist:116",
+        "first_name": "Gary",
+        "last_name": "Oldman",
+        "birth_date": "1958",
+        "role": "Norman Stansfield"
+      },
+      {
+        "_id": "artist:118",
+        "first_name": "Natalie",
+        "last_name": "Portman",
+        "birth_date": "1981",
+        "role": "Mathilda"
+      }
+    ]
+  },
+  {
+    "_id": "movie:45",
+    "title": "Nikita",
+    "year": 1990,
+    "genre": "Thriller",
+    "summary": "Nikita, droguée et violente, est prise en mains par des psychiatres qui la rééduquent, la conditionnent, afin d'en faire une tueuse à la botte des Services Secrets. Plus tard, réalisant ce qu'elle est devenue, un pion sans vie privée que l'on manipule, elle tente d'échapper à ses commanditaires. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:111",
+      "last_name": "Besson",
+      "first_name": "Luc",
+      "birth_date": "1959"
+    },
+    "actors": [
+      {
+        "_id": "artist:115",
+        "first_name": "Tchky",
+        "last_name": "Karyo",
+        "birth_date": "1953",
+        "role": "Bob"
+      },
+      {
+        "_id": "artist:119",
+        "first_name": "Anne",
+        "last_name": "Parillaud",
+        "birth_date": "1960",
+        "role": "Nikita"
+      },
+      {
+        "_id": "artist:120",
+        "first_name": "Jean-Hughes",
+        "last_name": "Anglade",
+        "birth_date": "1955",
+        "role": "Marco"
+      }
+    ]
+  },
+  {
+    "_id": "movie:46",
+    "title": "Le grand bleu",
+    "year": 1988,
+    "genre": "drama",
+    "summary": "Jacques Mayol et Enzo Molinari se connaissent depuis l'enfance. Tous deux experts en apnée, s'affrontent continuellement pour obtenir le record du monde de plongée. Toujours en rivalité, les deux hommes descendent de plus en plus profond, au risque de leurs vies. Le film est ressorti en janvier 89 en version longue d'une durée de 2h40. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:111",
+      "last_name": "Besson",
+      "first_name": "Luc",
+      "birth_date": "1959"
+    },
+    "actors": [
+      {
+        "_id": "artist:39",
+        "first_name": "Rosanna",
+        "last_name": "Arquette",
+        "birth_date": "1959",
+        "role": "Johanna"
+      },
+      {
+        "_id": "artist:60",
+        "first_name": "Jean",
+        "last_name": "Reno",
+        "birth_date": "1948",
+        "role": "Enzo Molinari"
+      },
+      {
+        "_id": "artist:121",
+        "first_name": "Jean-Marc",
+        "last_name": "Barr",
+        "birth_date": "1960",
+        "role": "Jacques Mayol"
+      }
+    ]
+  },
+  {
+    "_id": "movie:47",
+    "title": "Spider-Man",
+    "year": 2002,
+    "genre": "Action",
+    "summary": "Orphelin, Peter Parker est élevé par sa tante May et son oncle Ben dans le quartier Queens de New York. Tout en poursuivant ses études à l'université, il trouve un emploi de photographe au journal Daily Bugle. Il partage son appartement avec Harry Osborn, son meilleur ami, et rêve de séduire la belle Mary Jane.Cependant, après avoir été mordu par une araignée génétiquement modifiée, Peter voit son agilité et sa force s'accroître et se découvre des pouvoirs surnaturels. Devenu Spider-Man, il décide d'utiliser ses nouvelles capacités au service du bien.Au même moment, le père de Harry, le richissime industriel Norman Osborn, est victime d'un accident chimique qui a démesurément augmenté ses facultés intellectuelles et sa force, mais l'a rendu fou. Il est devenu le Bouffon Vert, une créature démoniaque qui menace la ville. Entre lui et Spider-Man, une lutte sans merci s'engage.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:187",
+      "last_name": "Raimi",
+      "first_name": "Sam",
+      "birth_date": "1959"
+    },
+    "actors": [
+      {
+        "_id": "artist:124",
+        "first_name": "Wesley",
+        "last_name": "Snipes",
+        "birth_date": "1962",
+        "role": "Spider-Man"
+      },
+      {
+        "_id": "artist:125",
+        "first_name": "Annabella",
+        "last_name": "Sciora",
+        "birth_date": "1964",
+        "role": "Norman Osborn"
+      },
+      {
+        "_id": "artist:126",
+        "first_name": "Isabella",
+        "last_name": "Rosselini",
+        "birth_date": "1952",
+        "role": "Mary Jane Watson"
+      },
+      {
+        "_id": "artist:127",
+        "first_name": "Vincent",
+        "last_name": "Gallo",
+        "birth_date": "1961",
+        "role": "Oncle Ben"
+      },
+      {
+        "_id": "artist:128",
+        "first_name": "Lars",
+        "last_name": "von Trier",
+        "birth_date": "1956",
+        "role": "Tante May"
+      }
+    ]
+  },
+  {
+    "_id": "movie:48",
+    "title": "King of New York",
+    "year": 1990,
+    "genre": "drama",
+    "summary": "L'histoire d'un gangster au grand coeur mais aux méthodes définitives, surlast_namemé par le presse The King of New York et qui rêve de fonder un hôpital, confronté a des policiers opiniâtres qui ont juré de l'abattre...",
+    "country": "USA",
+    "director": {
+      "_id": "artist:122",
+      "last_name": "Ferrara",
+      "first_name": "Abel",
+      "birth_date": "1951"
+    },
+    "actors": [
+      {
+        "_id": "artist:63",
+        "first_name": "Laurence",
+        "last_name": "Fishburne",
+        "birth_date": "1961",
+        "role": "Jimmy Jump"
+      },
+      {
+        "_id": "artist:97",
+        "first_name": "Christopher",
+        "last_name": "Walken",
+        "birth_date": "1943",
+        "role": "Frank White"
+      },
+      {
+        "_id": "artist:124",
+        "first_name": "Wesley",
+        "last_name": "Snipes",
+        "birth_date": "1962",
+        "role": "Thomas Flanigan"
+      },
+      {
+        "_id": "artist:131",
+        "first_name": "Matthieu",
+        "last_name": "Kassowitz",
+        "birth_date": "1967",
+        "role": "Dennis Gilley"
+      },
+      {
+        "_id": "artist:132",
+        "first_name": "Vincent",
+        "last_name": "Cassel",
+        "birth_date": "1966",
+        "role": "Thomas Flanigan"
+      },
+      {
+        "_id": "artist:217",
+        "first_name": "Steve",
+        "last_name": "Buscemi",
+        "birth_date": "1957",
+        "role": "Test tube"
+      }
+    ]
+  },
+  {
+    "_id": "movie:49",
+    "title": "The Matrix reloaded",
+    "year": 2003,
+    "genre": "Science-fiction",
+    "summary": "Neo apprend à mieux contrôler ses dons naturels, alors même que Sion s'apprête à tomber sous l'assaut de l'Armée des Machines. D'ici quelques heures, 250 000 Sentinelles programmées pour anéantir notre espèce envahiront la dernière enclave humaine de la Terre.Mais Morpheus galvanise les citoyens de Sion en leur rappelant la Parole de l'Oracle : il est encore temps pour l'Elu d'arrêter la guerre contre les Machines. Tous les espoirs se reportent dès lors sur Neo. Au long de sa périlleuse plongée au sein de la Matrix et de sa propre destinée, ce dernier sera confronté à une résistance croissante, une vérité encore plus aveuglante, un choix encore plus douloureux que tout ce qu'il avait jamais imaginé.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:61",
+      "last_name": "Wachowski",
+      "first_name": "Andy",
+      "birth_date": "1967"
+    },
+    "actors": [
+      {
+        "_id": "artist:62",
+        "first_name": "Keanu",
+        "last_name": "Reeves",
+        "birth_date": "1964",
+        "role": "Neo"
+      },
+      {
+        "_id": "artist:63",
+        "first_name": "Laurence",
+        "last_name": "Fishburne",
+        "birth_date": "1961",
+        "role": "Morpheus"
+      },
+      {
+        "_id": "artist:210",
+        "first_name": "Carrie-Anne",
+        "last_name": "Moss",
+        "birth_date": "1967",
+        "role": "Trinity"
+      },
+      {
+        "_id": "artist:211",
+        "first_name": "Hugo",
+        "last_name": "Weaving",
+        "birth_date": "1960",
+        "role": "Agent Smith"
+      }
+    ]
+  },
+  {
+    "_id": "movie:50",
+    "title": "The Matrix Revolutions",
+    "year": 2003,
+    "genre": "Science-fiction",
+    "summary": "La longue quête de liberté des rebelles culmine en une bataille finale explosive. Tandis que l'armée des Machines sème la désolation sur Zion, ses citoyens organisent une défense acharnée. Mais pourront-ils retenir les nuées implacables des Sentinelles en attendant que Neo s'approprie l'ensemble de ses pouvoirs et mette fin à la guerre ?L'agent Smith est quant à lui parvenu à prendre possession de l'esprit de Bane, l'un des membres de l'équipage de l'aéroglisseur. De plus en plus puissant, il est désormais incontrôlable et n'obéit plus aux Machines : il menace de détruire leur empire ainsi que le monde réel et la Matrice... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:135",
+      "last_name": "Phoenix",
+      "first_name": "Joaquin",
+      "birth_date": "1974"
+    },
+    "actors": [
+      {
+        "_id": "artist:62",
+        "first_name": "Keanu",
+        "last_name": "Reeves",
+        "birth_date": "1964",
+        "role": "Neo"
+      },
+      {
+        "_id": "artist:63",
+        "first_name": "Laurence",
+        "last_name": "Fishburne",
+        "birth_date": "1961",
+        "role": "Morpheus"
+      },
+      {
+        "_id": "artist:134",
+        "first_name": "Mark",
+        "last_name": "Wahlberg",
+        "birth_date": "1971",
+        "role": "Agent Smith"
+      },
+      {
+        "_id": "artist:136",
+        "first_name": "Charlize",
+        "last_name": "Theron",
+        "birth_date": "1975",
+        "role": "Trinity"
+      },
+      {
+        "_id": "artist:137",
+        "first_name": "James",
+        "last_name": "Caan",
+        "birth_date": "1940",
+        "role": "L'Oracle"
+      }
+    ]
+  },
+  {
+    "_id": "movie:51",
+    "title": "De bruit et de fureur",
+    "year": 1988,
+    "genre": "drama",
+    "summary": "L'histoire de Bruno, enfant attardé des banlieues et des H.L.M., plongé dans la violence de son milieu, et dont la vie va se consumer comme une étoile filante.",
+    "country": "FR",
+    "director": {
+      "_id": "artist:138",
+      "last_name": "Chabrol",
+      "first_name": "Claude",
+      "birth_date": "1930"
+    },
+    "actors": [
+      {
+        "_id": "artist:139",
+        "first_name": "Isabelle",
+        "last_name": "Huppert",
+        "birth_date": "1953",
+        "role": "Marcel"
+      },
+      {
+        "_id": "artist:140",
+        "first_name": "Anna",
+        "last_name": "Mouglalis",
+        "birth_date": "1978",
+        "role": "Enseignante"
+      },
+      {
+        "_id": "artist:141",
+        "first_name": "Kevin",
+        "last_name": "Costner",
+        "birth_date": "1955",
+        "role": "Bruno"
+      }
+    ]
+  },
+  {
+    "_id": "movie:52",
+    "title": "Usual suspects",
+    "year": 1995,
+    "genre": "Thriller",
+    "summary": "Une légende du crime contraint cinq malfrats à aller s'aquitter d'une tâche très périlleuse. Ceux qui survivent pourront se partager un butin de 90 millions de dollars.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:142",
+      "last_name": "Dern",
+      "first_name": "Laura",
+      "birth_date": "1967"
+    },
+    "actors": [
+      {
+        "_id": "artist:18",
+        "first_name": "Kevin",
+        "last_name": "Spacey",
+        "birth_date": "1959",
+        "role": "Roger \"Verbal\" Kint"
+      },
+      {
+        "_id": "artist:143",
+        "first_name": "Tom",
+        "last_name": "Hanks",
+        "birth_date": "1956",
+        "role": "Micheal McManus"
+      },
+      {
+        "_id": "artist:144",
+        "first_name": "Tom",
+        "last_name": "Sizemore",
+        "birth_date": "1964",
+        "role": "Dean Keaton"
+      },
+      {
+        "_id": "artist:145",
+        "first_name": "Matt",
+        "last_name": "Damon",
+        "birth_date": "1970",
+        "role": "Fred Fenster"
+      },
+      {
+        "_id": "artist:146",
+        "first_name": "Matthew",
+        "last_name": "Modine",
+        "birth_date": "1959",
+        "role": "Todd Hockney"
+      }
+    ]
+  },
+  {
+    "_id": "movie:53",
+    "title": "Bad Lieutenant",
+    "year": 1992,
+    "genre": "drama",
+    "summary": "La descente aux enfers d'un flic pourri qui enquete sur le viol d'une jolie religieuse.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:122",
+      "last_name": "Ferrara",
+      "first_name": "Abel",
+      "birth_date": "1951"
+    },
+    "actors": [
+      {
+        "_id": "artist:98",
+        "first_name": "Harvey",
+        "last_name": "Keitel",
+        "birth_date": "1939",
+        "role": "Le lieutenant"
+      }
+    ]
+  },
+  {
+    "_id": "movie:54",
+    "title": "Le parrain",
+    "year": 1972,
+    "genre": "drama",
+    "summary": "En 1945, à New York, les Corleone sont une des cinq familles de la mafia. Don Vito Corleone, \" parrain \" de cette famille, marie sa fille à un bookmaker. Sollozzo, \" parrain \" de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable.Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe. Michael, le frère cadet de Sonny, recherche alors les commanditaires de l'attentat et tue Sollozzo et le chef de la police, en représailles.Michael part alors en Sicile, où il épouse Apollonia, mais celle-ci est assassinée à sa place. De retour à New York, Michael épouse Kay Adams et se prépare à devenir le successeur de son père...",
+    "country": "USA",
+    "director": {
+      "_id": "artist:181",
+      "last_name": "Coppola",
+      "first_name": "Francis Ford",
+      "birth_date": "1940"
+    },
+    "actors": [
+      {
+        "_id": "artist:137",
+        "first_name": "James",
+        "last_name": "Caan",
+        "birth_date": "1940",
+        "role": "Sonny Corleone"
+      },
+      {
+        "_id": "artist:155",
+        "first_name": "Sterling",
+        "last_name": "Hayden",
+        "birth_date": "1916",
+        "role": "Capt. McCluskey"
+      },
+      {
+        "_id": "artist:176",
+        "first_name": "Al",
+        "last_name": "Pacino",
+        "birth_date": "1940",
+        "role": "Michael Corleone"
+      },
+      {
+        "_id": "artist:182",
+        "first_name": "Marlon",
+        "last_name": "Brando",
+        "birth_date": "1924",
+        "role": "Do Vito Corleone"
+      },
+      {
+        "_id": "artist:183",
+        "first_name": "Diane",
+        "last_name": "Keaton",
+        "birth_date": "1946",
+        "role": "Kay Adams"
+      },
+      {
+        "_id": "artist:184",
+        "first_name": "Robert",
+        "last_name": "Duvall",
+        "birth_date": "1931",
+        "role": "Tom Hagen"
+      }
+    ]
+  },
+  {
+    "_id": "movie:55",
+    "title": "Le parrain II",
+    "year": 1974,
+    "genre": "drama",
+    "summary": "A la mort de Vito Corleone, dit \"le Parrain\", c'est son fils, Michael, qui reprend les affaires familiales. Très vite, son ascension dans le milieu mafiosi est fulgurante.Depuis la mort De Don Vito Corleone, son fils, Michael, règne sur la famille. Amené à négocier avec la mafia juive, il perd alors le soutien d'un de ses lieutenants, Frankie Pentageli. Echappant de justesse à un attentat, Michael tente de retrouver le coupable, soupçonnant Hyman Roth, le chef de la mafia juive.Vito Corleone, immigrant italien, arrive à New York au début du siècle ; très vite, il devient un des caïds du quartier, utilisant la violence comme moyen de régler toutes les affaires. Seul au départ, il bâtit peu à peu un véritable empire, origine de la fortune de la famille des Corleone. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:181",
+      "last_name": "Coppola",
+      "first_name": "Francis Ford",
+      "birth_date": "1940"
+    },
+    "actors": [
+      {
+        "_id": "artist:167",
+        "first_name": "Robert",
+        "last_name": "De Niro",
+        "birth_date": "1943",
+        "role": "Don Vito Corleone"
+      },
+      {
+        "_id": "artist:176",
+        "first_name": "Al",
+        "last_name": "Pacino",
+        "birth_date": "1940",
+        "role": "Michael Corleone"
+      },
+      {
+        "_id": "artist:183",
+        "first_name": "Diane",
+        "last_name": "Keaton",
+        "birth_date": "1946",
+        "role": "Kay Adams"
+      },
+      {
+        "_id": "artist:184",
+        "first_name": "Robert",
+        "last_name": "Duvall",
+        "birth_date": "1931",
+        "role": "Tom Hagen"
+      }
+    ]
+  },
+  {
+    "_id": "movie:56",
+    "title": "Le parrain III",
+    "year": 1990,
+    "genre": "drama",
+    "summary": "Atteignant la soixantaine, Michael Corleone désire à la fois renouer avec les siens et se réhabiliter aux yeux de la société, surtout de l'Eglise. Il arrivera presque a ses fins, mais sa vie passée et ses anciens ennemis le rattraperont plus vite.Michael Corleone est fatigué. Il veut prendre ses distances avec les activités mafieuses de sa famille. Il veut convertir ces activités en affaires légales. Kay, son ex-femme, lui fait même accepter que leur fils devienne un chanteur d'opéra et ne reprenne pas les activités familiales.Pendant ce temps, la fille de Michael, Mary, et son neveu, le fils de Sonny, Vincent, nouent une idylle qui n'est pas la bienvenue dans la famille.Il décide d'aider le Vatican à renflouer ses caisses et reçoit en échange le contrôle d'une entreprise immobilière leur appartenant. Attisant la jalousie de ses pairs, Michael échappe de justesse à un attentat commis par l'un d'eux. Vincent se propose alors pour reprendre les affaires de la famille en main.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:181",
+      "last_name": "Coppola",
+      "first_name": "Francis Ford",
+      "birth_date": "1940"
+    },
+    "actors": [
+      {
+        "_id": "artist:1",
+        "first_name": "Sofia",
+        "last_name": "Coppola",
+        "birth_date": "1971",
+        "role": "Mary Corleone"
+      },
+      {
+        "_id": "artist:176",
+        "first_name": "Al",
+        "last_name": "Pacino",
+        "birth_date": "1940",
+        "role": "Michael Corleone"
+      },
+      {
+        "_id": "artist:183",
+        "first_name": "Diane",
+        "last_name": "Keaton",
+        "birth_date": "1946",
+        "role": "Kay Adams"
+      },
+      {
+        "_id": "artist:186",
+        "first_name": "Andy",
+        "last_name": "Garcia",
+        "birth_date": "1956",
+        "role": "Vincent Mancini"
+      }
+    ]
+  },
+  {
+    "_id": "movie:57",
+    "title": "Jackie Brown",
+    "year": 1997,
+    "genre": "crime",
+    "summary": "Jackie Brown, hôtesse de l'air, arrondit ses fins de mois en convoyant de l'argent liquide pour le compte d'un trafiquant d'armes, Ordell Robbie. Un jour, un agent federal et un policier de Los Angeles la cueillent à l'aéroport. Ils comptent sur elle pour faire tomber le trafiquant. Jackie échafaude alors un plan audacieux pour doubler tout le monde lors d'un prochain transfert qui porte sur la modeste somme de cinq cent mille dollars. Mais il lui faudra compter avec les complices d'Ordell, qui ont des méthodes plutôt expéditives.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:37",
+      "last_name": "Tarantino",
+      "first_name": "Quentin",
+      "birth_date": "1963"
+    },
+    "actors": [
+      {
+        "_id": "artist:167",
+        "first_name": "Robert",
+        "last_name": "De Niro",
+        "birth_date": "1943",
+        "role": "Luis Gara"
+      },
+      {
+        "_id": "artist:168",
+        "first_name": "Pam",
+        "last_name": "Grier",
+        "birth_date": "1949",
+        "role": "Jackie Brown"
+      },
+      {
+        "_id": "artist:169",
+        "first_name": "Bridget",
+        "last_name": "Fonda",
+        "birth_date": "1964",
+        "role": "Melanie"
+      },
+      {
+        "_id": "artist:170",
+        "first_name": "Michael",
+        "last_name": "Keaton",
+        "birth_date": "1951",
+        "role": "Ray Nicolette"
+      },
+      {
+        "_id": "artist:212",
+        "first_name": "Samuel",
+        "last_name": "Jackson",
+        "birth_date": "1948",
+        "role": "Ordell Robbie"
+      }
+    ]
+  },
+  {
+    "_id": "movie:58",
+    "title": "Une journée en enfer",
+    "year": 1995,
+    "genre": "Action",
+    "summary": "John McClane est cette fois-ci aux prises avec un maître chanteur, facétieux et dangereux, qui dépose des bombes dans New York.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:168",
+      "last_name": "Grier",
+      "first_name": "Pam",
+      "birth_date": "1949"
+    },
+    "actors": [
+      {
+        "_id": "artist:27",
+        "first_name": "Bruce",
+        "last_name": "Willis",
+        "birth_date": "1955",
+        "role": "McClane"
+      },
+      {
+        "_id": "artist:38",
+        "first_name": "Samuel L.",
+        "last_name": "Jackson",
+        "birth_date": "1948",
+        "role": "Zeus Carver"
+      },
+      {
+        "_id": "artist:169",
+        "first_name": "Bridget",
+        "last_name": "Fonda",
+        "birth_date": "1964",
+        "role": "Simon Gruber"
+      }
+    ]
+  },
+  {
+    "_id": "movie:59",
+    "title": "Sixième sens",
+    "year": 1999,
+    "genre": "Fantastique",
+    "summary": "Cole Sear, garconnet de huit ans est hanté par un terrible secret. Son imaginaire est visité par des esprits menacants. Trop jeune pour comprendre le pourquoi de ces apparitions et traumatisé par ces pouvoirs paranormaux, Cole s'enferme dans une peur maladive et ne veut reveler à personne la cause de son enfermement, à l'exception d'un psychologue pour enfants. La recherche d'une explication rationnelle guidera l'enfant et le thérapeute vers une vérité foudroyante et inexplicable.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:170",
+      "last_name": "Keaton",
+      "first_name": "Michael",
+      "birth_date": "1951"
+    },
+    "actors": [
+      {
+        "_id": "artist:27",
+        "first_name": "Bruce",
+        "last_name": "Willis",
+        "birth_date": "1955",
+        "role": "Malcom Crowe"
+      },
+      {
+        "_id": "artist:171",
+        "first_name": "M. Night",
+        "last_name": "Shyamalan",
+        "birth_date": "1970",
+        "role": "Cole Sear"
+      }
+    ]
+  },
+  {
+    "_id": "movie:60",
+    "title": "Lost in Translation",
+    "year": 2003,
+    "genre": "romance",
+    "summary": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour touner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent.Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire.Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob...",
+    "country": "USA",
+    "director": {
+      "_id": "artist:172",
+      "last_name": "Osment",
+      "first_name": "Haley Joel",
+      "birth_date": "1988"
+    },
+    "actors": [
+      {
+        "_id": "artist:173",
+        "first_name": "Tony",
+        "last_name": "Collette",
+        "birth_date": "1972",
+        "role": "Bob Harris"
+      },
+      {
+        "_id": "artist:174",
+        "first_name": "Eric",
+        "last_name": "Leighton",
+        "birth_date": "1962",
+        "role": "Charlotte"
+      },
+      {
+        "_id": "artist:175",
+        "first_name": "Michael",
+        "last_name": "Mann",
+        "birth_date": "1943",
+        "role": "John"
+      },
+      {
+        "_id": "artist:176",
+        "first_name": "Al",
+        "last_name": "Pacino",
+        "birth_date": "1940",
+        "role": "Kelly"
+      },
+      {
+        "_id": "artist:177",
+        "first_name": "Russel",
+        "last_name": "Crowe",
+        "birth_date": "1964",
+        "role": "Patron Nightclub"
+      }
+    ]
+  },
+  {
+    "_id": "movie:61",
+    "title": "Kill Bill",
+    "year": 2003,
+    "genre": "drama",
+    "summary": "Au cours d'une cérémonie de mariage en plein désert, un commando fait irruption dans la chapelle et tire sur les convives. Laissée pour morte, la Mariée enceinte retrouve ses esprits après un coma de quatre ans.Celle qui a auparavant exercé les fonctions de tueuse à gages au sein du Détachement International des Vipères Assassines n'a alors plus qu'une seule idée en tête : venger la mort de ses proches en éliminant tous les membres de l'organisation criminelle, dont leur chef Bill qu'elle se réserve pour la fin.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:37",
+      "last_name": "Tarantino",
+      "first_name": "Quentin",
+      "birth_date": "1963"
+    },
+    "actors": [
+      {
+        "_id": "artist:40",
+        "first_name": "Uma",
+        "last_name": "Thurman",
+        "birth_date": "1970",
+        "role": "La mariée, alias \"Black Mamba\""
+      },
+      {
+        "_id": "artist:213",
+        "first_name": "Lucy",
+        "last_name": "Liu",
+        "birth_date": "1968",
+        "role": "O-Ren Ishii"
+      },
+      {
+        "_id": "artist:214",
+        "first_name": "David",
+        "last_name": "Carradine",
+        "birth_date": "1936",
+        "role": "Bill"
+      },
+      {
+        "_id": "artist:215",
+        "first_name": "Michael",
+        "last_name": "Madsen",
+        "birth_date": "1958",
+        "role": "Budd / Sidewinder"
+      },
+      {
+        "_id": "artist:216",
+        "first_name": "Daryl",
+        "last_name": "Hannah",
+        "birth_date": "1960",
+        "role": "Elle Driver"
+      }
+    ]
+  },
+  {
+    "_id": "movie:62",
+    "title": "Stalingrad",
+    "year": 2001,
+    "genre": "drama",
+    "summary": null,
+    "country": "USA",
+    "director": {
+      "_id": "artist:34",
+      "last_name": "Annaud",
+      "first_name": "Jean-Jacques",
+      "birth_date": "1943"
+    },
+    "actors": [
+      {
+        "_id": "artist:182",
+        "first_name": "Marlon",
+        "last_name": "Brando",
+        "birth_date": "1924",
+        "role": "Vassili Zaïtzev"
+      },
+      {
+        "_id": "artist:183",
+        "first_name": "Diane",
+        "last_name": "Keaton",
+        "birth_date": "1946",
+        "role": "major König"
+      }
+    ]
+  },
+  {
+    "_id": "movie:63",
+    "title": "Million Dollar Baby",
+    "year": 2005,
+    "genre": "drama",
+    "summary": "Une histoire d'amour tragique et platonique entre une boxeuse et un vieil entraîneur de trente ans son aîné.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:20",
+      "last_name": "Eastwood",
+      "first_name": "Clint",
+      "birth_date": "1930"
+    },
+    "actors": [
+      {
+        "_id": "artist:20",
+        "first_name": "Clint",
+        "last_name": "Eastwood",
+        "birth_date": "1930",
+        "role": "Frankie Dunn"
+      },
+      {
+        "_id": "artist:22",
+        "first_name": "Morgan",
+        "last_name": "Freeman",
+        "birth_date": "1937",
+        "role": "Eddie Scrap-Iron Dupris"
+      },
+      {
+        "_id": "artist:224",
+        "first_name": "Hillary",
+        "last_name": "Swank",
+        "birth_date": "1974",
+        "role": "Maggie Fitzerald"
+      }
+    ]
+  },
+  {
+    "_id": "movie:64",
+    "title": "Pour quelques dollars de plus",
+    "year": 1965,
+    "genre": "Western",
+    "summary": "Le colonel Douglas Mortimer collabore avec un chasseur de primes surlast_namemé L'\"Etranger\". Tous les deux souhaitent capturer Indio, un tueur fou, qui sème la terreur autour de lui. Ce dernier et ses hommes sont sur le point de piller la banque d'El Paso.",
+    "country": "IT",
+    "director": {
+      "_id": "artist:219",
+      "last_name": "Leone",
+      "first_name": "Sergio",
+      "birth_date": "1929"
+    },
+    "actors": []
+  },
+  {
+    "_id": "movie:67",
+    "title": "Marie Antoinette",
+    "year": 2006,
+    "genre": "drama",
+    "summary": "Based on Antonia Fraser's book about the ill-fated  Archduchess of Austria and later Queen of France,  'Marie Antoinette' tells the story of the most  misunderstood and abused woman in history, from  her birth in Imperial Austria to her later life in  France. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:1",
+      "last_name": "Coppola",
+      "first_name": "Sofia",
+      "birth_date": "1971"
+    },
+    "actors": [
+      {
+        "_id": "artist:2",
+        "first_name": "Kirsten",
+        "last_name": "Dunst",
+        "birth_date": null,
+        "role": "Marie Antoinette"
+      }
+    ]
+  },
+  {
+    "_id": "movie:68",
+    "title": "Soleil vert",
+    "year": 1973,
+    "genre": "Science-fiction",
+    "summary": "L'action du film se déroule en l'an 2022 à New York qui est devenue une mégapole de 44 millions d'habitants. Il règne en permanence une température élevée, soit plus de 30 °C. L'eau est rare. La faune et la flore ont quasiment disparu. La nourriture issue de l'agriculture également. La plupart des habitants n'ont pas les moyens d'acheter des aliments naturels, les prix étant exorbitants. Ils en sont réduits à manger des produits de synthèse, fournis par la multinationale « Soylent », des tablettes de forme carrée, jaunes, rouges ou bleues. Un nouvel aliment vient d'être lancé, le soylent green, beaucoup plus nutritif, cher et disponible uniquement le mardi : ce jour-là, des émeutes de citoyens affamés ne sont pas rares et sont sévèrement réprimées.Thorn, un policier « de premier ordre », vit avec son ami Sol Roth, un vieux juif lettré, dans un petit appartement délabré et surpeuplé. Sol peste contre l'état du monde et a la nostalgie du passé tandis que Thorn se contente des seules choses qu'il a connues, à savoir la nourriture synthétique et la canicule perpétuelle.Dans le même temps, William Simonson, un des dirigeants de la société agroalimentaire Soylent, est exécuté dans son appartement situé dans une tour sécurisée des beaux quartiers de Chelsea ; Thorn est chargé de l'enquête et va découvrir que cette affaire, rapidement étiquetée comme étant un crime crapuleux, se révèle être en fait un assassinat visant à empêcher Simonson de révéler un terrible secret. Thorn comprend que Tab Fielding, le garde du corps du dirigeant, est complice car il était, comme par hasard, absent au moment du meurtre et que le système de sécurité était en panne. Thorn ramène chez lui divers objets dont des aliments frais, de la viande et du bourbon, qu'il a dérobé chez la victime, et les partage avec Sol. Poursuivant son enquête, Thorn revient dans l'appartement, noue une relation avec la « compagne » de Simonson, ayant le statut de simple « meuble » et dont le prochain locataire disposera.Puis Thorn découvre que Tab Fielding est propriétaire d'un bel appartement et qu'il a les moyens d'acheter de la nourriture naturelle, telle que de la confiture aux fraises : les soupçons du policier se confirment donc et il refuse de clôturer l'enquête. Thorn se révélant trop curieux, Donovan, l'homme chargé de la sécurité et qui travaille pour Santini, le gouverneur, décide de le supprimer par l'intermédiaire de son tueur à gage, Gilbert, l'exécuteur de Simonson.Profitant d'une émeute due à l'épuisement des stocks de soylent green, Gilbert tente de tuer Thorn en lui tirant dessus mais échoue par deux fois, tant la foule est dense. Thorn finit par maîtriser Gilbert et l'envoie bouler sous une « dégageuse » (scoop), sorte de camion-benne tractopelle ramassant les émeutiers afin de canaliser l'émeute.Pendant ce temps, Sol se rend à l'Échange, bibliothèque où se réunissent des gens instruits, sorte de comité de sage consultatif pouvant émettre un avis auprès d'instances internationales. Sol leur montre les deux rapports d'activité de la société Soylent que Thorn avait découvert chez Simonson. Face aux conclusions du comité, horrifié et désemparé, Sol comprend pourquoi Simonson a été assassiné : il décide alors d'aller au Foyer, endroit où l'on se fait euthanasier. Thorn arrive trop tard pour l'en empêcher mais réussit à assister aux dernières minutes de son ami : sur un immense écran, Thorn voit défiler les images de ce qu'était la Terre autrefois, des paysages magnifiques, la vie sauvage, la beauté de la nature. Avant de mourir, Sol lui demande de trouver la preuve que la société Soylent n'est pas ce qu'elle prétend être.Thorn se glisse dans l'un des camions bennes emmenant les cadavres à l'extérieur de la ville vers un crematorium et découvre, en explorant les locaux de l'usine, que le soylent green est en réalité fabriqué à partir des cadavres euthanasiés : cet aliment est, selon le discours officiel, censé être fabriqué à partir de plancton. En réalité, même les océans sont devenus stériles et l'anthropophagie est désormais intégrée au système alimentaire humain.Pourchassé par les tueurs au service du gouverneur Santini, dont Tab Fielding, Thorn finit par être sévèrement blessé. Quand son supérieur arrive à sa rescousse, Thorn se met à hurler que le « soylent green est fabriqué avec des gens qui servent de bétails ». Il supplie son supérieur de tout révéler.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:7",
+      "last_name": "Fleischer",
+      "first_name": "Richard ",
+      "birth_date": "1973"
+    },
+    "actors": [
+      {
+        "_id": "artist:8",
+        "first_name": "Charlton ",
+        "last_name": "Hestone",
+        "birth_date": "1923",
+        "role": "sol"
+      }
+    ]
+  },
+  {
+    "_id": "movie:69",
+    "title": "Heat",
+    "year": 1995,
+    "genre": "crime",
+    "summary": "La bande de Neil McCauley à laquelle est venu se greffer Waingro, une nouvelle recrue, attaque un fourgon blindé pour s'emparer d'une somme importante en obligations. Cependant, ce dernier tue froidement l'un des convoyeurs et Chris Shiherlis se retrouve obligé de \"terminer le travail\". Neil tente d'éliminer Waingro, mais celui-ci parvient à s'échapper. Parallèlement, le lieutenant Vincent Hanna mène l'enquête...",
+    "country": "USA",
+    "director": {
+      "_id": "artist:175",
+      "last_name": "Mann",
+      "first_name": "Michael",
+      "birth_date": "1943"
+    },
+    "actors": [
+      {
+        "_id": "artist:167",
+        "first_name": "Robert",
+        "last_name": "De Niro",
+        "birth_date": "1943",
+        "role": null
+      }
+    ]
+  },
+  {
+    "_id": "movie:70",
+    "title": "Taxi driver",
+    "year": 1976,
+    "genre": "drama",
+    "summary": "Vétéran de la Guerre du Vietnam, Travis Bickle est chauffeur de taxi dans la ville de New York. Ses rencontres nocturnes et la violence quotidienne dont il est témoin lui font peu à peu perdre la tête. Il se charge bientôt de délivrer une prostituée mineure de ses souteneurs.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:241",
+      "last_name": "Scorcese",
+      "first_name": "Martin",
+      "birth_date": "1962"
+    },
+    "actors": [
+      {
+        "_id": "artist:51",
+        "first_name": "Jodie",
+        "last_name": "Foster",
+        "birth_date": null,
+        "role": "1962"
+      },
+      {
+        "_id": "artist:167",
+        "first_name": "Robert",
+        "last_name": "De Niro",
+        "birth_date": "1943",
+        "role": "Travis Bickle "
+      }
+    ]
+  },
+  {
+    "_id": "movie:71",
+    "title": "Les affranchis",
+    "year": 1990,
+    "genre": "crime",
+    "summary": "Depuis sa plus tendre enfance, Henry Hill, né d'un père irlandais et d'une mère sicilienne, veut devenir gangster et appartenir à la Mafia. Adolescent dans les années cinquante, il commence par travailler pour le compte de Paul Cicero et voue une grande admiration pour Jimmy Conway, qui a fait du détournement de camions sa grande spécialité. Lucide et ambitieux, il contribue au casse des entrepôts de l'aéroport d'Idlewild et épouse Karen, une jeune Juive qu'il trompe régulièrement. Mais son implication dans le trafic de drogue le fera plonger...",
+    "country": "USA",
+    "director": {
+      "_id": "artist:241",
+      "last_name": "Scorcese",
+      "first_name": "Martin",
+      "birth_date": "1962"
+    },
+    "actors": [
+      {
+        "_id": "artist:167",
+        "first_name": "Robert",
+        "last_name": "De Niro",
+        "birth_date": "1943",
+        "role": "James Conway"
+      },
+      {
+        "_id": "artist:242",
+        "first_name": "Ray",
+        "last_name": "Liotta",
+        "birth_date": "1954",
+        "role": "Henry Hill"
+      },
+      {
+        "_id": "artist:243",
+        "first_name": "Joe",
+        "last_name": "Pesci",
+        "birth_date": "1943",
+        "role": "Tommy DeVito"
+      },
+      {
+        "_id": "artist:244",
+        "first_name": "Lorraine",
+        "last_name": "Bracco",
+        "birth_date": "1954",
+        "role": "Karen Hill"
+      }
+    ]
+  },
+  {
+    "_id": "movie:72",
+    "title": "Casino",
+    "year": 1995,
+    "genre": "crime",
+    "summary": "En 1973, Sam Ace Rothstein est le grand manitou de la ville de toutes les folies, Las Vegas. Il achète et épouse une virtuose de l’arnaque, Ginger Mc Kenna, qui sombre bien vite dans l’alcool et la drogue. Mais un autre ennui guette Sam, son ami d’enfance Nicky Santoro, qui entreprend de mettre la ville en coupe réglée…",
+    "country": "USA",
+    "director": {
+      "_id": "artist:241",
+      "last_name": "Scorcese",
+      "first_name": "Martin",
+      "birth_date": "1962"
+    },
+    "actors": [
+      {
+        "_id": "artist:167",
+        "first_name": "Robert",
+        "last_name": "De Niro",
+        "birth_date": "1943",
+        "role": "Sam 'Ace' Rothstein"
+      },
+      {
+        "_id": "artist:243",
+        "first_name": "Joe",
+        "last_name": "Pesci",
+        "birth_date": "1943",
+        "role": "  Nicky Santoro "
+      },
+      {
+        "_id": "artist:245",
+        "first_name": "Sharon",
+        "last_name": "Stone",
+        "birth_date": "1958",
+        "role": "Ginger McKenna"
+      }
+    ]
+  },
+  {
+    "_id": "movie:73",
+    "title": "Casino Royale",
+    "year": 2006,
+    "genre": "Action",
+    "summary": "Pour sa première mission, James Bond affronte le tout-puissant banquier privé du terrorisme international, Le Chiffre. Pour achever de le ruiner et démanteler le plus grand réseau criminel qui soit, Bond doit le battre lors d'une partie de poker à haut risque au Casino Royale. La très belle Vesper, attachée au Trésor, l'accompagne afin de veiller à ce que l'agent 007 prenne soin de l'argent du gouvernement britannique qui lui sert de mise, mais rien ne va se passer comme prévu.Alors que Bond et Vesper s'efforcent d'échapper aux tentatives d'assassinat du Chiffre et de ses hommes, d'autres sentiments surgissent entre eux, ce qui ne fera que les rendre plus vulnérables... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:246",
+      "last_name": "Campbell",
+      "first_name": "Martin",
+      "birth_date": "1943"
+    },
+    "actors": [
+      {
+        "_id": "artist:247",
+        "first_name": "Daniel",
+        "last_name": "Craig",
+        "birth_date": "1968",
+        "role": "James Bond"
+      },
+      {
+        "_id": "artist:248",
+        "first_name": "Eva",
+        "last_name": "Green",
+        "birth_date": "1980",
+        "role": "Vesper Lynd"
+      }
+    ]
+  },
+  {
+    "_id": "movie:74",
+    "title": "Skyfall",
+    "year": 1012,
+    "genre": "Action",
+    "summary": "Lorsque la dernière mission de Bond tourne mal, plusieurs agents infiltrés se retrouvent exposés dans le monde entier. Le MI6 est attaqué, et M est obligée de relocaliser l’Agence. Ces événements ébranlent son autorité, et elle est remise en cause par Mallory, le nouveau président de l’ISC, le comité chargé du renseignement et de la sécurité. Le MI6 est à présent sous le coup d’une double menace, intérieure et extérieure. Il ne reste à M qu’un seul allié de confiance vers qui se tourner : Bond. Plus que jamais, 007 va devoir agir dans l’ombre. Avec l’aide d’Eve, un agent de terrain, il se lance sur la piste du mystérieux Silva, dont il doit identifier coûte que coûte l’objectif secret et mortel… ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:17",
+      "last_name": "Mendes",
+      "first_name": "Sam",
+      "birth_date": "1965"
+    },
+    "actors": [
+      {
+        "_id": "artist:247",
+        "first_name": "Daniel",
+        "last_name": "Craig",
+        "birth_date": "1968",
+        "role": "James Bond"
+      },
+      {
+        "_id": "artist:249",
+        "first_name": "Judi",
+        "last_name": "Bench",
+        "birth_date": "1934",
+        "role": "M"
+      },
+      {
+        "_id": "artist:250",
+        "first_name": "Javier",
+        "last_name": "Bardem",
+        "birth_date": "1969",
+        "role": "Silva"
+      }
+    ]
+  },
+  {
+    "_id": "movie:76",
+    "title": "No country for old men",
+    "year": 2007,
+    "genre": "crime",
+    "summary": "A la frontière qui sépare le Texas du Mexique, les trafiquants de drogue ont depuis longtemps remplacé les voleurs de bétail. Lorsque Llewelyn Moss tombe sur une camionnette abandonnée, cernée de cadavres ensanglantés, il ne sait rien de ce qui a conduit à ce drame. Et quand il prend les deux millions de dollars qu'il découvre à l'intérieur du véhicule, il n'a pas la moindre idée de ce que cela va provoquer...Moss a déclenché une réaction en chaîne d'une violence inouïe que le shérif Bell, un homme vieillissant et sans illusions, ne parviendra pas à contenir... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:251",
+      "last_name": "Coen",
+      "first_name": "Ethan",
+      "birth_date": "1957"
+    },
+    "actors": [
+      {
+        "_id": "artist:250",
+        "first_name": "Javier",
+        "last_name": "Bardem",
+        "birth_date": "1969",
+        "role": "Anton Chigurh"
+      },
+      {
+        "_id": "artist:252",
+        "first_name": "Tommy Lee",
+        "last_name": "Jones",
+        "birth_date": "1946",
+        "role": "Ed Tom Bell"
+      },
+      {
+        "_id": "artist:253",
+        "first_name": "Josh",
+        "last_name": "Brolin",
+        "birth_date": "1968",
+        "role": "Llewelyn Moss"
+      }
+    ]
+  },
+  {
+    "_id": "movie:77",
+    "title": "Fargo",
+    "year": 1996,
+    "genre": "crime",
+    "summary": "En plein hiver, Jerry Lundegaard, un vendeur de voitures d'occasion à Minneapolis, a besoin d'un prêt de Wade Gustafson, son riche beau-père. Endetté jusqu'au cou, il fait appel à Carl Showalter et Gaear Grimsrud, deux malfrats, pour qu'ils enlèvent son épouse Jean. Il pourra ainsi partager avec les ravisseurs la rançon que Wade paiera pour la libération de sa fille. Mais les choses ne vont pas se dérouler comme prévu. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:251",
+      "last_name": "Coen",
+      "first_name": "Ethan",
+      "birth_date": "1957"
+    },
+    "actors": [
+      {
+        "_id": "artist:217",
+        "first_name": "Steve",
+        "last_name": "Buscemi",
+        "birth_date": "1957",
+        "role": "Carl Showalter"
+      },
+      {
+        "_id": "artist:254",
+        "first_name": "William",
+        "last_name": "Macy",
+        "birth_date": "1950",
+        "role": " Jerry Lundegaard "
+      }
+    ]
+  },
+  {
+    "_id": "movie:78",
+    "title": "Django unchained",
+    "year": 2012,
+    "genre": "Western",
+    "summary": "Dans le sud des États-Unis, deux ans avant la guerre de Sécession, le Dr King Schultz, un chasseur de primes allemand, fait l’acquisition de Django, un esclave qui peut l’aider à traquer les frères Brittle, les meurtriers qu’il recherche. Schultz promet à Django de lui rendre sa liberté lorsqu’il aura capturé les Brittle – morts ou vifs.Alors que les deux hommes pistent les dangereux criminels, Django n’oublie pas que son seul but est de retrouver Broomhilda, sa femme, dont il fut séparé à cause du commerce des esclaves…Lorsque Django et Schultz arrivent dans l’immense plantation du puissant Calvin Candie, ils éveillent les soupçons de Stephen, un esclave qui sert Candie et a toute sa confiance. Le moindre de leurs mouvements est désormais épié par une dangereuse organisation de plus en plus proche… Si Django et Schultz veulent espérer s’enfuir avec Broomhilda, ils vont devoir choisir entre l’indépendance et la solidarité, entre le sacrifice et la survie…",
+    "country": "USA",
+    "director": {
+      "_id": "artist:37",
+      "last_name": "Tarantino",
+      "first_name": "Quentin",
+      "birth_date": "1963"
+    },
+    "actors": [
+      {
+        "_id": "artist:110",
+        "first_name": "Leonardo",
+        "last_name": "DiCaprio",
+        "birth_date": "1974",
+        "role": "Calvin Candie"
+      },
+      {
+        "_id": "artist:212",
+        "first_name": "Samuel",
+        "last_name": "Jackson",
+        "birth_date": "1948",
+        "role": "Stephen"
+      },
+      {
+        "_id": "artist:255",
+        "first_name": "Jamie",
+        "last_name": "Foxx",
+        "birth_date": "1967",
+        "role": "Django"
+      },
+      {
+        "_id": "artist:256",
+        "first_name": "Christoph",
+        "last_name": "Waltz",
+        "birth_date": "1956",
+        "role": "Dr. King Schultz"
+      }
+    ]
+  },
+  {
+    "_id": "movie:79",
+    "title": "Inglourious Basterds",
+    "year": 209,
+    "genre": "Guerre",
+    "summary": "Dans la France occupée de 1940, Shosanna Dreyfus assiste à l'exécution de sa famille tombée entre les mains du colonel nazi Hans Landa. Shosanna s'échappe de justesse et s'enfuit à Paris où elle se construit une nouvelle identité en devenant exploitante d'une salle de cinéma.Quelque part ailleurs en Europe, le lieutenant Aldo Raine forme un groupe de soldats juifs américains pour mener des actions punitives particulièrement sanglantes contre les nazis. \"Les bâtards\", last_name sous lequel leurs ennemis vont apprendre à les connaître, se joignent à l'actrice allemande et agent secret Bridget von Hammersmark pour tenter d'éliminer les hauts dignitaires du Troisième Reich. Leurs destins vont se jouer à l'entrée du cinéma où Shosanna est décidée à mettre à exécution une vengeance très personnelle... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:37",
+      "last_name": "Tarantino",
+      "first_name": "Quentin",
+      "birth_date": "1963"
+    },
+    "actors": []
+  },
+  {
+    "_id": "movie:80",
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "genre": "Guerre",
+    "summary": "Dans la France occupée de 1940, Shosanna Dreyfus assiste à l'exécution de sa famille tombée entre les mains du colonel nazi Hans Landa. Shosanna s'échappe de justesse et s'enfuit à Paris où elle se construit une nouvelle identité en devenant exploitante d'une salle de cinéma.Quelque part ailleurs en Europe, le lieutenant Aldo Raine forme un groupe de soldats juifs américains pour mener des actions punitives particulièrement sanglantes contre les nazis. \"Les bâtards\", last_name sous lequel leurs ennemis vont apprendre à les connaître, se joignent à l'actrice allemande et agent secret Bridget von Hammersmark pour tenter d'éliminer les hauts dignitaires du Troisième Reich. Leurs destins vont se jouer à l'entrée du cinéma où Shosanna est décidée à mettre à exécution une vengeance très personnelle... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:37",
+      "last_name": "Tarantino",
+      "first_name": "Quentin",
+      "birth_date": "1963"
+    },
+    "actors": [
+      {
+        "_id": "artist:32",
+        "first_name": "Brad",
+        "last_name": "Pitt",
+        "birth_date": "1963",
+        "role": "Lt. Aldo Raine"
+      },
+      {
+        "_id": "artist:256",
+        "first_name": "Christoph",
+        "last_name": "Waltz",
+        "birth_date": "1956",
+        "role": "Col. Hans Landa"
+      },
+      {
+        "_id": "artist:257",
+        "first_name": "Mélanie",
+        "last_name": "Laurent",
+        "birth_date": "1983",
+        "role": "Shoshana"
+      },
+      {
+        "_id": "artist:258",
+        "first_name": "Michael",
+        "last_name": "Fassbender",
+        "birth_date": "1977",
+        "role": "Lt. Archie Hicox"
+      }
+    ]
+  },
+  {
+    "_id": "movie:81",
+    "title": "Les quatre cents coups",
+    "year": 1959,
+    "genre": "drama",
+    "summary": "Antoine a une adolescence turbulente. Il ment à ses parents indifférents à son sort, vole, fugue. Son seul réconfort, il fait les quatre cents coups avec son ami René. Un jour, la police s'en mêle. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:259",
+      "last_name": "Truffaut",
+      "first_name": "François",
+      "birth_date": null
+    },
+    "actors": [
+      {
+        "_id": "artist:260",
+        "first_name": "Jean-Pierre",
+        "last_name": "Léaud",
+        "birth_date": "1944",
+        "role": "Antoine Doinel"
+      }
+    ]
+  },
+  {
+    "_id": "movie:82",
+    "title": "Le dernier métro",
+    "year": 1980,
+    "genre": "drama",
+    "summary": "Paris, septembre 1942. Lucas Steiner, le directeur du théâtre Montmartre a dû fuir parce qu’il est juif. Sa femme Marion Steiner dirige le théâtre et engage Bernard Granger, transfuge du Grand Guignol, pour jouer à ses côtés dans « la Disparue », que met en scène Jean-Louis Cottins. Jusqu’au soir de la générale, la troupe subit les menaces du virulent critique de « Je suis partout », Daxiat, dont l’ambition est de diriger la Comédie-Française. Et si, par amour pour sa femme, Lucas Steiner avait fait semblant de fuir la France et était resté caché dans la cave de son théâtre pendant toute la guerre…. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:259",
+      "last_name": "Truffaut",
+      "first_name": "François",
+      "birth_date": null
+    },
+    "actors": [
+      {
+        "_id": "artist:130",
+        "first_name": "Catherine",
+        "last_name": "Deneuve",
+        "birth_date": "1943",
+        "role": "Marion Steiner"
+      },
+      {
+        "_id": "artist:261",
+        "first_name": "Gérard",
+        "last_name": "Departieu",
+        "birth_date": null,
+        "role": "Bernard Granger"
+      },
+      {
+        "_id": "artist:262",
+        "first_name": "Jean",
+        "last_name": "Poiret",
+        "birth_date": "1926",
+        "role": "Jean-Loup Cottins"
+      }
+    ]
+  },
+  {
+    "_id": "movie:84",
+    "title": "Rio Grande",
+    "year": 1950,
+    "genre": "Western",
+    "summary": "Colonel de la cavalerie américaine, Kirby York acceuille dans son régiment son propre fils, le jeune Jeff, recalé à West Point. Séparée de York depuis un épisode tragique de la Guerre de Sécession, Kathleen, la mère de Jeff, intervient auprès de son époux pour qu'il n'accepte pas le jeune homme dans sa garnison. La guerre contre les Indiens fait rage, et la mère craint pour la vie de son fils. Une terrible bataille contre les Apaches s'annonce... ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:263",
+      "last_name": "Ford",
+      "first_name": "John",
+      "birth_date": "1894"
+    },
+    "actors": [
+      {
+        "_id": "artist:264",
+        "first_name": "John",
+        "last_name": "Wayne",
+        "birth_date": "1907",
+        "role": "Lt. Col. Kirby Yorke"
+      },
+      {
+        "_id": "artist:265",
+        "first_name": "Maureen",
+        "last_name": "O'Hara",
+        "birth_date": "1920",
+        "role": "Mrs. Kathleen Yorke"
+      }
+    ]
+  },
+  {
+    "_id": "movie:85",
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": "Science-fiction",
+    "summary": "Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astrolast_nameiques dans un voyage interstellaire.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:266",
+      "last_name": "Nolan",
+      "first_name": "Christopher",
+      "birth_date": "1970"
+    },
+    "actors": [
+      {
+        "_id": "artist:267",
+        "first_name": "Mathew",
+        "last_name": "McConaughey",
+        "birth_date": "1969",
+        "role": "Cooper"
+      },
+      {
+        "_id": "artist:268",
+        "first_name": "Anne",
+        "last_name": "Hathaway",
+        "birth_date": "1982",
+        "role": "   Brand "
+      },
+      {
+        "_id": "artist:269",
+        "first_name": "Michael",
+        "last_name": "Caine",
+        "birth_date": "1933",
+        "role": "Professor Brand"
+      }
+    ]
+  },
+  {
+    "_id": "movie:86",
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Science-fiction",
+    "summary": "Dom Cobb est un voleur expérimenté – le meilleur qui soit dans l’art périlleux de l’extraction : sa spécialité consiste à s’approprier les secrets les plus précieux d’un individu, enfouis au plus profond de son subconscient, pendant qu’il rêve et que son esprit est particulièrement vulnérable. Très recherché pour ses talents dans l’univers trouble de l’espionnage industriel, Cobb est aussi devenu un fugitif traqué dans le monde entier qui a perdu tout ce qui lui est cher. Mais une ultime mission pourrait lui permettre de retrouver sa vie d’avant – à condition qu’il puisse accomplir l’impossible : l’inception. Au lieu de subtiliser un rêve, Cobb et son équipe doivent faire l’inverse : implanter une idée dans l’esprit d’un individu. S’ils y parviennent, il pourrait s’agir du crime parfait. Et pourtant, aussi méthodiques et doués soient-ils, rien n’aurait pu préparer Cobb et ses partenaires à un ennemi redoutable qui semble avoir systématiquement un coup d’avance sur eux. Un ennemi dont seul Cobb aurait pu soupçonner l’existence. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:266",
+      "last_name": "Nolan",
+      "first_name": "Christopher",
+      "birth_date": "1970"
+    },
+    "actors": [
+      {
+        "_id": "artist:110",
+        "first_name": "Leonardo",
+        "last_name": "DiCaprio",
+        "birth_date": "1974",
+        "role": "Cobb"
+      },
+      {
+        "_id": "artist:269",
+        "first_name": "Michael",
+        "last_name": "Caine",
+        "birth_date": "1933",
+        "role": "Miles"
+      },
+      {
+        "_id": "artist:270",
+        "first_name": "Elen",
+        "last_name": "Page",
+        "birth_date": null,
+        "role": "Ariadne"
+      },
+      {
+        "_id": "artist:271",
+        "first_name": "Marion",
+        "last_name": "Cotillard",
+        "birth_date": "1975",
+        "role": "Mal"
+      }
+    ]
+  },
+  {
+    "_id": "movie:87",
+    "title": "Memento",
+    "year": 2000,
+    "genre": "Thriller",
+    "summary": "Leonard Shelby ne porte que des costumes de grands couturiers et ne se déplace qu'au volant de sa Jaguar. En revanche, il habite dans des motels miteux et règle ses notes avec d'épaisses liasses de billets.Leonard n'a qu'une idée en tête : traquer l'homme qui a violé et assassiné sa femme afin de se venger. Sa recherche du meurtrier est rendue plus difficile par le fait qu'il souffre d'une forme rare et incurable d'amnésie. Bien qu'il puisse se souvenir de détails de son passé, il est incapable de savoir ce qu'il a fait dans le quart d'heure précédent, où il se trouve, où il va et pourquoi.Pour ne jamais perdre son objectif de vue, il a structuré sa vie à l'aide de fiches, de notes, de photos, de tatouages sur le corps. C'est ce qui l'aide à garder contact avec sa mission, à retenir les informations et à garder une trace, une notion de l'espace et du temps. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:266",
+      "last_name": "Nolan",
+      "first_name": "Christopher",
+      "birth_date": "1970"
+    },
+    "actors": [
+      {
+        "_id": "artist:272",
+        "first_name": "Guy",
+        "last_name": "Pearce",
+        "birth_date": "1967",
+        "role": "Leonard"
+      },
+      {
+        "_id": "artist:273",
+        "first_name": "Carie-Anne",
+        "last_name": "Moss",
+        "birth_date": "1967",
+        "role": "Natalie"
+      }
+    ]
+  },
+  {
+    "_id": "movie:88",
+    "title": "Batman begins",
+    "year": 2005,
+    "genre": "Thriller",
+    "summary": "Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l'injustice.",
+    "country": "USA",
+    "director": {
+      "_id": "artist:266",
+      "last_name": "Nolan",
+      "first_name": "Christopher",
+      "birth_date": "1970"
+    },
+    "actors": [
+      {
+        "_id": "artist:22",
+        "first_name": "Morgan",
+        "last_name": "Freeman",
+        "birth_date": "1937",
+        "role": "Lucius Fox "
+      },
+      {
+        "_id": "artist:116",
+        "first_name": "Gary",
+        "last_name": "Oldman",
+        "birth_date": "1958",
+        "role": " Jim Gordon "
+      },
+      {
+        "_id": "artist:269",
+        "first_name": "Michael",
+        "last_name": "Caine",
+        "birth_date": "1933",
+        "role": "Alfred"
+      },
+      {
+        "_id": "artist:274",
+        "first_name": "Christian",
+        "last_name": "Bale",
+        "birth_date": "1974",
+        "role": " Bruce Wayne / Batman "
+      },
+      {
+        "_id": "artist:275",
+        "first_name": "Liam",
+        "last_name": "Neeson",
+        "birth_date": "1952",
+        "role": "Ducard"
+      }
+    ]
+  },
+  {
+    "_id": "movie:89",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": "Science-fiction",
+    "summary": "Dans ce nouveau volet, Batman augmente les mises dans sa guerre contre le crime. Avec l'appui du lieutenant de police Jim Gordon et du procureur de Gotham, Harvey Dent, Batman vise à éradiquer le crime organisé qui pullule dans la ville. Leur association est très efficace mais elle sera bientôt bouleversée par le chaos déclenché par un criminel extraordinaire que les citoyens de Gotham connaissent sous le last_name de Joker. ",
+    "country": "USA",
+    "director": {
+      "_id": "artist:266",
+      "last_name": "Nolan",
+      "first_name": "Christopher",
+      "birth_date": "1970"
+    },
+    "actors": [
+      {
+        "_id": "artist:22",
+        "first_name": "Morgan",
+        "last_name": "Freeman",
+        "birth_date": "1937",
+        "role": "Lucius Fox"
+      },
+      {
+        "_id": "artist:116",
+        "first_name": "Gary",
+        "last_name": "Oldman",
+        "birth_date": "1958",
+        "role": "Gordon"
+      },
+      {
+        "_id": "artist:269",
+        "first_name": "Michael",
+        "last_name": "Caine",
+        "birth_date": "1933",
+        "role": "Alfred"
+      },
+      {
+        "_id": "artist:274",
+        "first_name": "Christian",
+        "last_name": "Bale",
+        "birth_date": "1974",
+        "role": "Bruce Wayne / Batman"
+      },
+      {
+        "_id": "artist:276",
+        "first_name": "Heath",
+        "last_name": "Ledger",
+        "birth_date": "1979",
+        "role": "Joker"
+      },
+      {
+        "_id": "artist:277",
+        "first_name": "Maggie",
+        "last_name": "Gyllenhaal",
+        "birth_date": "1977",
+        "role": "Rachel"
+      }
+    ]
+  },
+  {
+    "_id": "movie:90",
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "genre": "Science-fiction",
+    "summary": "Il y a huit ans, Batman a disparu dans la nuit : lui qui était un héros est alors devenu un fugitif. S'accusant de la mort du procureur-adjoint Harvey Dent, le Chevalier Noir a tout sacrifié au last_name de ce que le commissaire Gordon et lui-même considéraient être une noble cause. Et leurs actions conjointes se sont avérées efficaces pour un temps puisque la criminalité a été éradiquée à Gotham City grâce à l'arsenal de lois répressif initié par Dent.Mais c'est un chat – aux intentions obscures – aussi rusé que voleur qui va tout bouleverser. À moins que ce ne soit l'arrivée à Gotham de Bane, terroriste masqué, qui compte bien arracher Bruce à l'exil qu'il s'est imposé. Pourtant, même si ce dernier est prêt à endosser de nouveau la cape et le casque du Chevalier Noir, Batman n'est peut-être plus de taille à affronter Bane…",
+    "country": "USA",
+    "director": {
+      "_id": "artist:266",
+      "last_name": "Nolan",
+      "first_name": "Christopher",
+      "birth_date": "1970"
+    },
+    "actors": [
+      {
+        "_id": "artist:22",
+        "first_name": "Morgan",
+        "last_name": "Freeman",
+        "birth_date": "1937",
+        "role": "Lucius Fox"
+      },
+      {
+        "_id": "artist:116",
+        "first_name": "Gary",
+        "last_name": "Oldman",
+        "birth_date": "1958",
+        "role": "Commissioner Gordon"
+      },
+      {
+        "_id": "artist:268",
+        "first_name": "Anne",
+        "last_name": "Hathaway",
+        "birth_date": "1982",
+        "role": "Selina"
+      },
+      {
+        "_id": "artist:269",
+        "first_name": "Michael",
+        "last_name": "Caine",
+        "birth_date": "1933",
+        "role": "Alfred"
+      },
+      {
+        "_id": "artist:271",
+        "first_name": "Marion",
+        "last_name": "Cotillard",
+        "birth_date": "1975",
+        "role": "Miranda"
+      },
+      {
+        "_id": "artist:274",
+        "first_name": "Christian",
+        "last_name": "Bale",
+        "birth_date": "1974",
+        "role": "Bruce Wayne / Batman"
+      }
+    ]
+  },
+  {
+    "_id": "movie:91",
+    "title": "Un prophète",
+    "year": 2009,
+    "genre": "drama",
+    "summary": "Condamné à six ans de prison, Malik El Djebena ne sait ni lire, ni écrire. A son arrivée en Centrale, seul au monde, il paraît plus jeune, plus fragile que les autres détenus. Il a 19 ans.D'emblée, il tombe sous la coupe d'un groupe de prisonniers corses qui fait régner sa loi dans la prison. Le jeune homme apprend vite. Au fil des \" missions \", il s'endurcit et gagne la confiance des Corses.Mais, très vite, Malik utilise toute son intelligence pour développer discrètement son propre réseau...",
+    "country": "FR",
+    "director": {
+      "_id": "artist:278",
+      "last_name": "Audiard",
+      "first_name": "Jacques",
+      "birth_date": "1952"
+    },
+    "actors": [
+      {
+        "_id": "artist:279",
+        "first_name": "Tahar",
+        "last_name": "Rahim",
+        "birth_date": "1981",
+        "role": "Malik El Djebena "
+      },
+      {
+        "_id": "artist:280",
+        "first_name": "Niels",
+        "last_name": "Arestrup",
+        "birth_date": "1949",
+        "role": "César Luciani"
+      }
+    ]
+  },
+  {
+    "_id": "movie:92",
+    "title": "Nous trois ou rien",
+    "year": 2015,
+    "genre": "drama",
+    "summary": "D’un petit village du sud de l’Iran aux cités parisiennes, Kheiron nous raconte le destin hors du commun de ses parents Hibat et Fereshteh, éternels optimistes, dans une comédie aux airs de conte universel qui évoque l’amour familial, le don de soi et surtout l’idéal d’un vivre-ensemble. ",
+    "country": "FR",
+    "director": {
+      "_id": "artist:281",
+      "last_name": " Kheiron",
+      "first_name": "Tabib",
+      "birth_date": null
+    },
+    "actors": []
+  }
+]
